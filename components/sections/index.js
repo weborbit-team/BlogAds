@@ -1,0 +1,9 @@
+export { default as HeroSection } from './HeroSection';
+export { default as FeaturedPosts } from './FeaturedPosts';
+export { default as StatsSection } from './StatsSection';
+export { default as CategoriesSection } from './CategoriesSection';
+export { default as RecentPosts } from './RecentPosts';
+export { default as NewsletterSection } from './NewsletterSection';
+export { default as TrendingSection } from './TrendingSection';
+export { default as AboutSection } from './AboutSection';
+export { default as TestimonialsSection } from './TestimonialsSection';
