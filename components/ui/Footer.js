@@ -35,7 +35,7 @@ export default function Footer() {
           spacing={{ xs: 4, md: 5 }}
           sx={{ textAlign: { xs: "center", md: "left" } }}
         >
-          <Grid item size={{ xs: 12, md: 4 }}>
+          <Grid size={{ xs: 12, md: 4 }}>
             <Typography
               variant="h5"
               sx={{ fontWeight: 700, mb: 2, color: "#8b5fbf" }}
@@ -81,7 +81,7 @@ export default function Footer() {
             </Box>
           </Grid>
 
-          <Grid item size={{ xs: 12, sm: 4, md: 3 }}>
+          <Grid size={{ xs: 12, sm: 4, md: 3 }}>
             <Typography
               variant="h6"
               sx={{ fontWeight: 600, mb: 3, color: "#8b5fbf" }}
@@ -116,7 +116,7 @@ export default function Footer() {
             </Box>
           </Grid>
 
-          <Grid item size={{ xs: 12, sm: 4, md: 2 }}>
+          <Grid size={{ xs: 12, sm: 4, md: 2 }}>
             <Typography
               variant="h6"
               sx={{ fontWeight: 600, mb: 3, color: "#8b5fbf" }}
@@ -150,7 +150,7 @@ export default function Footer() {
             </Box>
           </Grid>
 
-          <Grid item size={{ xs: 12, sm: 4, md: 3 }}>
+          <Grid size={{ xs: 12, sm: 4, md: 3 }}>
             <Typography
               variant="h6"
               sx={{ fontWeight: 600, mb: 3, color: "#8b5fbf" }}
