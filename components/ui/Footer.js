@@ -29,8 +29,12 @@ export default function Footer() {
         borderTop: "1px solid #333",
       }}
     >
-      <Container maxWidth="lg">
-        <Grid container spacing={{ xs: 4, md: 5 }}>
+      <Container>
+        <Grid
+          container
+          spacing={{ xs: 4, md: 5 }}
+          sx={{ textAlign: { xs: "center", md: "left" } }}
+        >
           <Grid item size={{ xs: 12, md: 4 }}>
             <Typography
               variant="h5"
@@ -180,10 +184,12 @@ export default function Footer() {
         <Box
           sx={{
             display: "flex",
-            justifyContent: "space-between",
+            justifyContent: { xs: "center", md: "space-between" },
             alignItems: "center",
+            flexDirection: { xs: "column", md: "row" },
             flexWrap: "wrap",
             gap: 2,
+            textAlign: { xs: "center", md: "left" },
           }}
         >
           <Typography variant="body2" sx={{ color: "#b0b0b0" }}>
