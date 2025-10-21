@@ -28,7 +28,7 @@ export default function AboutSection() {
           Why Choose BlogAds?
         </Typography>
         <Typography variant="body1" color="text.secondary" maxWidth={600} mx="auto">
-          We're more than just a blog. We're a community of passionate individuals sharing knowledge, 
+          We&apos;re more than just a blog. We&apos;re a community of passionate individuals sharing knowledge, 
           insights, and experiences to help you grow in your tech journey.
         </Typography>
       </Box>

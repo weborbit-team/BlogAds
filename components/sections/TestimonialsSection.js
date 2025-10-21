@@ -50,7 +50,7 @@ export default function TestimonialsSection() {
                 </Box>
                 <Rating value={testimonial.rating} readOnly size="small" sx={{ mb: 2 }} />
                 <Typography variant="body2" color="text.secondary">
-                  "{testimonial.content}"
+                  &quot;{testimonial.content}&quot;
                 </Typography>
               </CardContent>
             </Card>
