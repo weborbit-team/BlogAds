@@ -13,7 +13,7 @@ import {
   Button,
 } from "@mui/material";
 import { CalendarToday, Person } from "@mui/icons-material";
-import { blogPosts } from "../../data/blogs/index";
+import { blogPosts } from "../../data/blogs";
 
 const categories = [
   "All",
@@ -33,7 +33,7 @@ export default function BlogsPage() {
     selectedCategory === 0
       ? blogPosts
       : blogPosts.filter(
-          (post) => post.category.name === categories[selectedCategory]
+          (post) => post.category === categories[selectedCategory]
         );
 
   const handleReadMore = (blogId) => {
@@ -58,10 +58,10 @@ export default function BlogsPage() {
       headline: post.title,
       description: post.excerpt,
       url: `${process.env.NEXT_PUBLIC_SITE_URL}/blogs/${post.id}`,
-      datePublished: post.publishedAt,
+      datePublished: post.date,
       author: {
         "@type": "Person",
-        name: post.author.name,
+        name: post.author,
       },
       publisher: {
         "@type": "Organization",
@@ -147,7 +147,7 @@ export default function BlogsPage() {
                     )}
                     <CardContent sx={{ flexGrow: 1 }}>
                       <Chip
-                        label={post.category.name}
+                        label={post.category}
                         size="small"
                         color="primary"
                         sx={{ mb: 2 }}
@@ -182,7 +182,7 @@ export default function BlogsPage() {
                             aria-hidden="true"
                           />
                           <Typography variant="caption" component="span">
-                            By {post.author.name}
+                            By {post.author}
                           </Typography>
                         </Box>
                         <Box display="flex" alignItems="center" gap={0.5}>
@@ -191,14 +191,8 @@ export default function BlogsPage() {
                             color="action"
                             aria-hidden="true"
                           />
-                          <Typography
-                            variant="caption"
-                            component="time"
-                            dateTime={post.publishedAt}
-                          >
-                            {new Date(post.publishedAt).toLocaleDateString(
-                              "en-US"
-                            )}
+                          <Typography variant="caption" component="time">
+                            {post.date}
                           </Typography>
                         </Box>
                       </Box>

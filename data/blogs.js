@@ -11,6 +11,8 @@ export const blogPosts = [
     author: "David Brown",
     category: "Technology",
     readTime: "8 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a2c8f1c2d3e4f567891",
@@ -23,6 +25,8 @@ export const blogPosts = [
     author: "Sarah Tech",
     category: "Technology",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a2d8f1c2d3e4f567892",
@@ -35,6 +39,8 @@ export const blogPosts = [
     author: "Dr. Quantum",
     category: "Technology",
     readTime: "12 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a2e8f1c2d3e4f567893",
@@ -46,6 +52,8 @@ export const blogPosts = [
     author: "Network Pro",
     category: "Technology",
     readTime: "9 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a2f8f1c2d3e4f567894",
@@ -57,6 +65,8 @@ export const blogPosts = [
     author: "SecureMax",
     category: "Technology",
     readTime: "11 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=400&fit=crop",
   },
 
   // Development
@@ -70,6 +80,8 @@ export const blogPosts = [
     author: "John Doe",
     category: "Development",
     readTime: "15 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a318f1c2d3e4f567896",
@@ -82,6 +94,8 @@ export const blogPosts = [
     author: "Mike Johnson",
     category: "Development",
     readTime: "13 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a328f1c2d3e4f567897",
@@ -94,6 +108,8 @@ export const blogPosts = [
     author: "JS Master",
     category: "Development",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a338f1c2d3e4f567898",
@@ -105,6 +121,8 @@ export const blogPosts = [
     author: "DevOps Pro",
     category: "Development",
     readTime: "16 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a348f1c2d3e4f567899",
@@ -116,6 +134,8 @@ export const blogPosts = [
     author: "Test Guru",
     category: "Development",
     readTime: "12 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=400&fit=crop",
   },
 
   // Design
@@ -130,6 +150,8 @@ export const blogPosts = [
     author: "Jane Smith",
     category: "Design",
     readTime: "9 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a368f1c2d3e4f56789b",
@@ -141,6 +163,8 @@ export const blogPosts = [
     author: "Design Lead",
     category: "Design",
     readTime: "14 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a378f1c2d3e4f56789c",
@@ -152,6 +176,8 @@ export const blogPosts = [
     author: "A11y Expert",
     category: "Design",
     readTime: "11 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a388f1c2d3e4f56789d",
@@ -163,6 +189,8 @@ export const blogPosts = [
     author: "Motion Designer",
     category: "Design",
     readTime: "8 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a398f1c2d3e4f56789e",
@@ -175,6 +203,8 @@ export const blogPosts = [
     author: "Color Expert",
     category: "Design",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=400&fit=crop",
   },
 
   // Business
@@ -188,6 +218,8 @@ export const blogPosts = [
     author: "Business Strategist",
     category: "Business",
     readTime: "12 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a3b8f1c2d3e4f5678a0",
@@ -199,6 +231,8 @@ export const blogPosts = [
     author: "Team Leader",
     category: "Business",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a3c8f1c2d3e4f5678a1",
@@ -210,6 +244,8 @@ export const blogPosts = [
     author: "Venture Analyst",
     category: "Business",
     readTime: "13 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a3d8f1c2d3e4f5678a2",
@@ -221,6 +257,8 @@ export const blogPosts = [
     author: "CX Specialist",
     category: "Business",
     readTime: "11 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a3e8f1c2d3e4f5678a3",
@@ -232,6 +270,8 @@ export const blogPosts = [
     author: "Agile Coach",
     category: "Business",
     readTime: "9 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&h=400&fit=crop",
   },
 
   // Marketing
@@ -245,6 +285,8 @@ export const blogPosts = [
     author: "Sarah Wilson",
     category: "Marketing",
     readTime: "11 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a408f1c2d3e4f5678a5",
@@ -257,6 +299,8 @@ export const blogPosts = [
     author: "Content Pro",
     category: "Marketing",
     readTime: "13 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a418f1c2d3e4f5678a6",
@@ -268,6 +312,8 @@ export const blogPosts = [
     author: "Social Media Expert",
     category: "Marketing",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a428f1c2d3e4f5678a7",
@@ -279,6 +325,8 @@ export const blogPosts = [
     author: "Email Specialist",
     category: "Marketing",
     readTime: "9 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1596526131083-e8c633c948d2?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a438f1c2d3e4f5678a8",
@@ -290,6 +338,8 @@ export const blogPosts = [
     author: "Analytics Pro",
     category: "Marketing",
     readTime: "12 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
   },
 
   // Lifestyle
@@ -304,6 +354,8 @@ export const blogPosts = [
     author: "Emily Davis",
     category: "Lifestyle",
     readTime: "8 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a458f1c2d3e4f5678aa",
@@ -315,6 +367,8 @@ export const blogPosts = [
     author: "Productivity Guru",
     category: "Lifestyle",
     readTime: "10 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a468f1c2d3e4f5678ab",
@@ -326,6 +380,8 @@ export const blogPosts = [
     author: "Mindful Tech",
     category: "Lifestyle",
     readTime: "9 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a478f1c2d3e4f5678ac",
@@ -337,6 +393,8 @@ export const blogPosts = [
     author: "Habit Coach",
     category: "Lifestyle",
     readTime: "11 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800&h=400&fit=crop",
   },
   {
     id: "675e4a488f1c2d3e4f5678ad",
@@ -348,5 +406,7 @@ export const blogPosts = [
     author: "Mindfulness Teacher",
     category: "Lifestyle",
     readTime: "7 min read",
+    featuredImage:
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=400&fit=crop",
   },
 ];
