@@ -10,5 +10,11 @@ export { default as Layout } from "./layout/Layout";
 // Providers
 export { default as ThemeProvider } from "./providers/ThemeProvider";
 
+// Advertisements
+export { default as BannerAdvertisement } from "./BannerAdvertisement";
+export { default as SmartlinkAdvertisement } from "./SmartlinkAdvertisement";
+export { default as NativeBannerAd } from "./NativeBannerAd";
+export { default as PopunderAd } from "./PopunderAd";
+
 // Sections
 export * from "./sections";

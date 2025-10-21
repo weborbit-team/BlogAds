@@ -1,4 +1,7 @@
 import { Box, styled } from "@mui/material";
+import BannerAdvertisement from "../BannerAdvertisement";
+import SmartlinkAdvertisement from "../SmartlinkAdvertisement";
+import NativeBannerAd from "../NativeBannerAd";
 
 const StyledBlogContent = styled(Box)(({ theme }) => ({
   fontFamily: '"Inter", "Segoe UI", "Roboto", sans-serif',
@@ -366,18 +369,37 @@ const StyledBlogContent = styled(Box)(({ theme }) => ({
 }));
 
 export default function BlogContent({ content, ...props }) {
+  // Split content by h2 tags for medium ad insertion
+  const sections = content.split(/<h2[^>]*>/i);
+
   return (
-    <StyledBlogContent
-      dangerouslySetInnerHTML={{ __html: content }}
-      sx={{
-        "& > *:first-of-type": {
-          marginTop: 0,
-        },
-        "& > *:last-child": {
-          marginBottom: 0,
-        },
-      }}
-      {...props}
-    />
+    <Box>
+      {sections.map((section, index) => (
+        <Box key={index}>
+          <StyledBlogContent
+            dangerouslySetInnerHTML={{
+              __html: index === 0 ? section : `<h2>${section}`,
+            }}
+            sx={{
+              "& > *:first-of-type": {
+                marginTop: 0,
+              },
+              "& > *:last-child": {
+                marginBottom: 0,
+              },
+            }}
+            {...props}
+          />
+
+          {/* Insert ads after every section (except first and last) */}
+          {index > 0 && index < sections.length - 1 && (
+            <Box sx={{ my: 4 }}>
+              <BannerAdvertisement />
+              <NativeBannerAd />
+            </Box>
+          )}
+        </Box>
+      ))}
+    </Box>
   );
 }

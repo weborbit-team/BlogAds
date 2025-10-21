@@ -22,6 +22,10 @@ import CountdownOverlay, {
 } from "../../../components/ui/CountdownOverlay";
 import { redirectToRandomBlog } from "../../../utils/blogRedirect";
 import UserForm from "../../../components/ui/UserForm";
+import BannerAdvertisement from "../../../components/BannerAdvertisement";
+import SmartlinkAdvertisement from "../../../components/SmartlinkAdvertisement";
+import NativeBannerAd from "../../../components/NativeBannerAd";
+import PopunderAd from "../../../components/PopunderAd";
 
 export default function BlogDetailPage() {
   const router = useRouter();
@@ -228,11 +232,26 @@ export default function BlogDetailPage() {
         </Box>
       </Box>
 
+      {/* Top Banner Ads */}
+      <BannerAdvertisement />
+      <NativeBannerAd />
+      <SmartlinkAdvertisement />
+
       {showCountdown && (
         <CountdownOverlay onComplete={handleCountdownComplete} />
       )}
 
       <BlogContent content={blog.content} />
+
+      {/* Middle Ads */}
+      <BannerAdvertisement />
+      <NativeBannerAd />
+      <SmartlinkAdvertisement />
+
+      {/* Bottom Ads */}
+      <BannerAdvertisement />
+      <NativeBannerAd />
+      <SmartlinkAdvertisement />
 
       <Box
         sx={{
@@ -254,6 +273,9 @@ export default function BlogDetailPage() {
       </Box>
 
       <BottomCountdownButton />
+      
+      {/* Popunder Ad */}
+      <PopunderAd />
 
       {showForm && (
         <UserForm
