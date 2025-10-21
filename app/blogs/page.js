@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import {
   Box,
@@ -25,14 +25,12 @@ const categories = [
   "Lifestyle",
 ];
 
-export default function BlogsPage() {
+function BlogsContent() {
   const [selectedCategory, setSelectedCategory] = useState(0);
-  const [mounted, setMounted] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
 
   useEffect(() => {
-    setMounted(true);
     const categoryParam = searchParams.get("category");
     if (categoryParam) {
       const categoryIndex = parseInt(categoryParam, 10);
@@ -41,10 +39,6 @@ export default function BlogsPage() {
       }
     }
   }, [searchParams]);
-
-  if (!mounted) {
-    return null;
-  }
 
   const filteredPosts =
     selectedCategory === 0
@@ -233,5 +227,13 @@ export default function BlogsPage() {
         </section>
       </Box>
     </>
+  );
+}
+
+export default function BlogsPage() {
+  return (
+    <Suspense fallback={<Box sx={{ mt: 4, textAlign: "center" }}>Loading...</Box>}>
+      <BlogsContent />
+    </Suspense>
   );
 }
