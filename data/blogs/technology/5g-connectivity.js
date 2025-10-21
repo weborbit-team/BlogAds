@@ -16,7 +16,8 @@ export const fiveGConnectivityBlog = {
     <h2>Looking Ahead to 6G</h2>
     <p>Research into 6G technology is already underway, promising even more transformative capabilities including holographic communications, brain-computer interfaces, and truly ubiquitous connectivity.</p>
   `,
-  featuredImage: "/images/blogs/5g-connectivity.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=400&fit=crop",
   publishedAt: "2024-12-12T08:00:00Z",
   updatedAt: "2024-12-12T08:00:00Z",
   author: {

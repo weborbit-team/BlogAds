@@ -19,7 +19,8 @@ export const dockerKubernetesBlog = {
     <h2>Monitoring and Scaling</h2>
     <p>Effective monitoring and auto-scaling are essential for production Kubernetes clusters. Learn about metrics, logging, and how to implement horizontal and vertical pod autoscaling.</p>
   `,
-  featuredImage: "/images/blogs/docker-kubernetes.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1605745341112-85968b19335b?w=800&h=400&fit=crop",
   publishedAt: "2024-12-12T10:00:00Z",
   updatedAt: "2024-12-12T10:00:00Z",
   author: {

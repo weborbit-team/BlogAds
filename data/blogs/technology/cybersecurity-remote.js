@@ -19,7 +19,8 @@ export const cybersecurityRemoteBlog = {
     <h2>Best Practices</h2>
     <p>Key practices include multi-factor authentication, regular security training, VPN usage, and maintaining updated security policies that address remote work scenarios.</p>
   `,
-  featuredImage: "/images/blogs/cybersecurity-remote.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=400&fit=crop",
   publishedAt: "2024-12-11T08:00:00Z",
   updatedAt: "2024-12-11T08:00:00Z",
   author: {

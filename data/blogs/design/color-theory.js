@@ -23,7 +23,8 @@ export const colorTheoryBlog = {
     <h2>Brand and Communication</h2>
     <p>Color is a powerful tool for brand communication. Explore how to use color strategically to reinforce brand identity, create hierarchy, and guide user attention through your interface.</p>
   `,
-  featuredImage: "/images/blogs/color-theory.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&h=400&fit=crop",
   publishedAt: "2024-12-11T14:00:00Z",
   updatedAt: "2024-12-11T14:00:00Z",
   author: {

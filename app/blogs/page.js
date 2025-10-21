@@ -1,6 +1,6 @@
 "use client";
-import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useState, useEffect } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import {
   Box,
   Typography,
@@ -12,7 +12,7 @@ import {
   Chip,
   Button,
 } from "@mui/material";
-import { CalendarToday, Person } from "@mui/icons-material";
+import { CalendarToday, Person, ArrowForward } from "@mui/icons-material";
 import { blogPosts } from "../../data/blogs";
 
 const categories = [
@@ -27,7 +27,24 @@ const categories = [
 
 export default function BlogsPage() {
   const [selectedCategory, setSelectedCategory] = useState(0);
+  const [mounted, setMounted] = useState(false);
   const router = useRouter();
+  const searchParams = useSearchParams();
+
+  useEffect(() => {
+    setMounted(true);
+    const categoryParam = searchParams.get("category");
+    if (categoryParam) {
+      const categoryIndex = parseInt(categoryParam, 10);
+      if (categoryIndex >= 0 && categoryIndex < categories.length) {
+        setSelectedCategory(categoryIndex);
+      }
+    }
+  }, [searchParams]);
+
+  if (!mounted) {
+    return null;
+  }
 
   const filteredPosts =
     selectedCategory === 0
@@ -76,11 +93,7 @@ export default function BlogsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
-      <Box
-        sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto", px: 2 }}
-        component="main"
-        role="main"
-      >
+      <Box sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto", px: 2 }}>
         <Typography
           variant="h2"
           component="h1"
@@ -100,6 +113,7 @@ export default function BlogsPage() {
             variant="scrollable"
             scrollButtons="auto"
             aria-label="Blog categories"
+            sx={{ mb: 3 }}
           >
             {categories.map((category, index) => (
               <Tab
@@ -196,17 +210,20 @@ export default function BlogsPage() {
                           </Typography>
                         </Box>
                       </Box>
-                      <Button
-                        variant="outlined"
-                        size="small"
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handleReadMore(post.id);
-                        }}
-                        aria-label={`Read full article: ${post.title}`}
-                      >
-                        Read More
-                      </Button>
+                      <Box sx={{ textAlign: "right" }}>
+                        <Button
+                          variant="outlined"
+                          size="small"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handleReadMore(post.id);
+                          }}
+                          aria-label={`Read full article: ${post.title}`}
+                          endIcon={<ArrowForward />}
+                        >
+                          Read More
+                        </Button>
+                      </Box>
                     </CardContent>
                   </Card>
                 </article>

@@ -2,6 +2,8 @@ export const aiWebDesignBlog = {
   id: "675e4a358f1c2d3e4f56789a",
   title: "AI in Modern Web Design",
   excerpt: "How artificial intelligence is transforming web design practices.",
+  featuredImage:
+    "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=400&fit=crop",
   content: `
     <h2>The AI Design Revolution</h2>
     <p>AI is revolutionizing web design through automated layout generation, intelligent color palette selection, and personalized user experiences. Designers are discovering new ways to enhance creativity while maintaining human-centered design principles.</p>

@@ -62,7 +62,15 @@ export default function Navbar() {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
-  const currentTabIndex = NAV_ITEMS.findIndex((item) => item.href === pathname);
+  const currentTabIndex = NAV_ITEMS.findIndex((item) => {
+    if (item.href === "/blogs" && pathname.startsWith("/blogs")) {
+      return true;
+    }
+    if (item.href === "/info" && pathname.startsWith("/info")) {
+      return true;
+    }
+    return item.href === pathname;
+  });
 
   useEffect(() => {
     setMounted(true);
@@ -83,7 +91,7 @@ export default function Navbar() {
           zIndex: 1100,
         }}
       >
-        <Container sx={{ position: "relative"}}>
+        <Container sx={{ position: "relative" }}>
           <Box
             sx={{
               display: "flex",
@@ -173,7 +181,11 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 sx={{
                   backgroundColor:
-                    pathname === href ? "primary.light" : "transparent",
+                    (href === "/blogs" && pathname.startsWith("/blogs")) ||
+                    (href === "/info" && pathname.startsWith("/info")) ||
+                    pathname === href
+                      ? "primary.light"
+                      : "transparent",
                   mx: 1,
                   borderRadius: 1,
                   mb: 1,

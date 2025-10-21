@@ -19,7 +19,8 @@ export const accessibilityDesignBlog = {
     <h2>Practical Implementation</h2>
     <p>Learn practical techniques for implementing accessibility including proper color contrast, keyboard navigation, semantic HTML, and ARIA labels. These techniques improve usability for everyone.</p>
   `,
-  featuredImage: "/images/blogs/accessibility-design.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800&h=400&fit=crop",
   publishedAt: "2024-12-13T14:00:00Z",
   updatedAt: "2024-12-13T14:00:00Z",
   author: {

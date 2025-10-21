@@ -19,7 +19,8 @@ export const scalableApisBlog = {
     <h2>Monitoring and Performance</h2>
     <p>Effective monitoring is crucial for maintaining API performance. Learn about metrics, logging, and alerting strategies that keep your APIs running smoothly.</p>
   `,
-  featuredImage: "/images/blogs/scalable-apis.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&h=400&fit=crop",
   publishedAt: "2024-12-14T10:00:00Z",
   updatedAt: "2024-12-14T10:00:00Z",
   author: {

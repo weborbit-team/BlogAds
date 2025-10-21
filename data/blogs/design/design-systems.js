@@ -19,7 +19,8 @@ export const designSystemsBlog = {
     <h2>Governance Models</h2>
     <p>Successful design systems require proper governance. Discover how to establish processes for contributions, updates, and quality control.</p>
   `,
-  featuredImage: "/images/blogs/design-systems.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?w=800&h=400&fit=crop",
   publishedAt: "2024-12-14T14:00:00Z",
   updatedAt: "2024-12-14T14:00:00Z",
   author: {

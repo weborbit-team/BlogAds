@@ -22,7 +22,8 @@ export const testingStrategiesBlog = {
     <h2>Automation and CI/CD</h2>
     <p>Automated testing is essential for continuous delivery. Learn how to integrate tests into CI/CD pipelines and implement effective testing strategies for different environments.</p>
   `,
-  featuredImage: "/images/blogs/testing-strategies.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&h=400&fit=crop",
   publishedAt: "2024-12-11T10:00:00Z",
   updatedAt: "2024-12-11T10:00:00Z",
   author: {

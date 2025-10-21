@@ -22,7 +22,8 @@ export const motionDesignBlog = {
     <h2>Accessibility and Motion</h2>
     <p>Consider users who prefer reduced motion due to vestibular disorders. Implement respectful motion design that can be disabled when needed while still providing essential feedback.</p>
   `,
-  featuredImage: "/images/blogs/motion-design.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop",
   publishedAt: "2024-12-12T14:00:00Z",
   updatedAt: "2024-12-12T14:00:00Z",
   author: {

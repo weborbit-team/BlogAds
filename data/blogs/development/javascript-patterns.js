@@ -20,7 +20,8 @@ export const javascriptPatternsBlog = {
     <h2>Performance Optimization</h2>
     <p>Modern JavaScript applications require careful attention to performance. Explore techniques for optimizing bundle size, lazy loading, and runtime performance.</p>
   `,
-  featuredImage: "/images/blogs/javascript-patterns.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1579468118864-1b9ea3c0db4a?w=800&h=400&fit=crop",
   publishedAt: "2024-12-13T10:00:00Z",
   updatedAt: "2024-12-13T10:00:00Z",
   author: {

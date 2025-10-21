@@ -8,7 +8,6 @@ import {
   TestimonialsSection,
   RecentPosts,
   StatsSection,
-  NewsletterSection,
 } from "../components";
 
 export const metadata = {
@@ -45,7 +44,6 @@ export default function Home() {
       <TestimonialsSection />
       <RecentPosts />
       <StatsSection />
-      <NewsletterSection />
     </Box>
   );
 }

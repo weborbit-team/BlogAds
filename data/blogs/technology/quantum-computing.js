@@ -17,7 +17,8 @@ export const quantumComputingBlog = {
     <h2>Challenges Ahead</h2>
     <p>Despite progress, significant challenges remain in error correction, qubit coherence, and scaling quantum systems to practical sizes.</p>
   `,
-  featuredImage: "/images/blogs/quantum-computing.jpg",
+  featuredImage:
+    "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=400&fit=crop",
   publishedAt: "2024-12-13T08:00:00Z",
   updatedAt: "2024-12-13T08:00:00Z",
   author: {
