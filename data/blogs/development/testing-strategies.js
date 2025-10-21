@@ -1,5 +1,5 @@
 export const testingStrategiesBlog = {
-  id: 10,
+  id: "675e4a348f1c2d3e4f567899",
   slug: "testing-strategies-modern-apps",
   title: "Testing Strategies for Modern Apps",
   excerpt: "Comprehensive testing approaches for reliable software.",
@@ -26,17 +26,17 @@ export const testingStrategiesBlog = {
   publishedAt: "2024-12-11T10:00:00Z",
   updatedAt: "2024-12-11T10:00:00Z",
   author: {
-    id: 12,
+    id: "675e4a2b8f1c2d3e4f56780c",
     name: "Test Guru",
     email: "test.guru@blogads.com",
     avatar: "/images/authors/test-guru.jpg",
-    bio: "Quality Assurance Expert and Testing Strategy Consultant"
+    bio: "Quality Assurance Expert and Testing Strategy Consultant",
   },
   category: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Development",
     slug: "development",
-    color: "#059669"
+    color: "#059669",
   },
   tags: ["testing", "TDD", "automation", "quality-assurance"],
   readTime: "12 min read",
@@ -45,6 +45,7 @@ export const testingStrategiesBlog = {
   comments: 35,
   status: "published",
   seoTitle: "Testing Strategies for Modern Apps - Complete Testing Guide",
-  seoDescription: "Learn comprehensive testing strategies including unit testing, integration testing, and test-driven development for reliable software.",
-  featured: false
+  seoDescription:
+    "Learn comprehensive testing strategies including unit testing, integration testing, and test-driven development for reliable software.",
+  featured: false,
 };

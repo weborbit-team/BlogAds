@@ -1,9 +1,10 @@
 export const aiRevolutionBlog = {
-  id: 2,
+  id: "675e4a2c8f1c2d3e4f567891",
   slug: "ai-revolution-2024",
   title: "AI Revolution in 2024",
   excerpt: "How artificial intelligence is transforming industries worldwide.",
-  featuredImage: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+  featuredImage:
+    "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
   content: `
     <h2>The AI Tipping Point</h2>
     <p>Artificial Intelligence has reached a tipping point in 2024, with breakthrough applications across healthcare, finance, and manufacturing. We're witnessing unprecedented innovation that's reshaping entire industries.</p>
@@ -23,17 +24,17 @@ export const aiRevolutionBlog = {
   publishedAt: "2024-12-14T08:00:00Z",
   updatedAt: "2024-12-14T08:00:00Z",
   author: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Sarah Tech",
     email: "sarah.tech@blogads.com",
     avatar: "/images/authors/sarah-tech.jpg",
-    bio: "AI Technology Specialist and Industry Analyst"
+    bio: "AI Technology Specialist and Industry Analyst",
   },
   category: {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567801",
     name: "Technology",
     slug: "technology",
-    color: "#2563eb"
+    color: "#2563eb",
   },
   readTime: "10 min read",
   views: 1856,
@@ -41,7 +42,8 @@ export const aiRevolutionBlog = {
   comments: 42,
   status: "published",
   seoTitle: "AI Revolution 2024 - Industry Transformation & Trends",
-  seoDescription: "Discover how artificial intelligence is revolutionizing industries worldwide with breakthrough applications and innovations.",
+  seoDescription:
+    "Discover how artificial intelligence is revolutionizing industries worldwide with breakthrough applications and innovations.",
   featured: true,
-  tags: ["AI", "machine learning", "healthcare", "ethics"]
+  tags: ["AI", "machine learning", "healthcare", "ethics"],
 };

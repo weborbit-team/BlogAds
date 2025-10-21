@@ -1,9 +1,11 @@
 export const workLifeBalanceBlog = {
-  id: 26,
+  id: "675e4a448f1c2d3e4f5678a9",
   slug: "work-life-balance-tech",
   title: "Work-Life Balance in Tech",
-  excerpt: "Tips for maintaining healthy work-life balance in the tech industry.",
-  featuredImage: "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&h=400&fit=crop",
+  excerpt:
+    "Tips for maintaining healthy work-life balance in the tech industry.",
+  featuredImage:
+    "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=800&h=400&fit=crop",
   content: `
     <h2>The Tech Industry Challenge</h2>
     <p>The tech industry's fast-paced environment can make work-life balance challenging. Long hours, tight deadlines, and the pressure to stay current with rapidly evolving technologies can lead to burnout.</p>
@@ -23,17 +25,17 @@ export const workLifeBalanceBlog = {
   publishedAt: "2024-12-15T16:00:00Z",
   updatedAt: "2024-12-15T16:00:00Z",
   author: {
-    id: 26,
+    id: "675e4a2b8f1c2d3e4f56781a",
     name: "Emily Davis",
     email: "emily.davis@blogads.com",
     avatar: "/images/authors/emily-davis.jpg",
-    bio: "Wellness Coach specializing in tech industry professionals"
+    bio: "Wellness Coach specializing in tech industry professionals",
   },
   category: {
-    id: 6,
+    id: "675e4a2b8f1c2d3e4f567806",
     name: "Lifestyle",
     slug: "lifestyle",
-    color: "#10b981"
+    color: "#10b981",
   },
   tags: ["work-life-balance", "wellness", "tech-industry", "stress-management"],
   readTime: "8 min read",
@@ -42,6 +44,7 @@ export const workLifeBalanceBlog = {
   comments: 42,
   status: "published",
   seoTitle: "Work-Life Balance in Tech - Wellness Tips for Professionals",
-  seoDescription: "Learn practical strategies for maintaining healthy work-life balance while building a successful tech career.",
-  featured: true
+  seoDescription:
+    "Learn practical strategies for maintaining healthy work-life balance while building a successful tech career.",
+  featured: true,
 };

@@ -1,5 +1,5 @@
 export const motionDesignBlog = {
-  id: 14,
+  id: "675e4a388f1c2d3e4f56789d",
   slug: "motion-design-web",
   title: "Motion Design for Web",
   excerpt: "Enhancing user experience through thoughtful animations.",
@@ -26,17 +26,17 @@ export const motionDesignBlog = {
   publishedAt: "2024-12-12T14:00:00Z",
   updatedAt: "2024-12-12T14:00:00Z",
   author: {
-    id: 14,
+    id: "675e4a2b8f1c2d3e4f56780e",
     name: "Motion Designer",
     email: "motion.designer@blogads.com",
     avatar: "/images/authors/motion-designer.jpg",
-    bio: "Motion Designer specializing in web animations and micro-interactions"
+    bio: "Motion Designer specializing in web animations and micro-interactions",
   },
   category: {
-    id: 3,
+    id: "675e4a2b8f1c2d3e4f567803",
     name: "Design",
     slug: "design",
-    color: "#dc2626"
+    color: "#dc2626",
   },
   tags: ["motion-design", "animation", "CSS", "user-experience"],
   readTime: "8 min read",
@@ -45,6 +45,7 @@ export const motionDesignBlog = {
   comments: 28,
   status: "published",
   seoTitle: "Motion Design for Web - Creating Engaging User Experiences",
-  seoDescription: "Learn how to enhance user experience through thoughtful web animations using CSS and JavaScript animation techniques.",
-  featured: false
+  seoDescription:
+    "Learn how to enhance user experience through thoughtful web animations using CSS and JavaScript animation techniques.",
+  featured: false,
 };

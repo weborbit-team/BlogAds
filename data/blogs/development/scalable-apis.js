@@ -1,5 +1,5 @@
 export const scalableApisBlog = {
-  id: 7,
+  id: "675e4a318f1c2d3e4f567896",
   slug: "building-scalable-apis",
   title: "Building Scalable APIs",
   excerpt: "Best practices for creating robust and scalable API architectures.",
@@ -23,17 +23,17 @@ export const scalableApisBlog = {
   publishedAt: "2024-12-14T10:00:00Z",
   updatedAt: "2024-12-14T10:00:00Z",
   author: {
-    id: 4,
+    id: "675e4a2b8f1c2d3e4f567804",
     name: "Mike Johnson",
     email: "mike.johnson@blogads.com",
     avatar: "/images/authors/mike-johnson.jpg",
-    bio: "Senior Backend Engineer with expertise in distributed systems"
+    bio: "Senior Backend Engineer with expertise in distributed systems",
   },
   category: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Development",
     slug: "development",
-    color: "#059669"
+    color: "#059669",
   },
   tags: ["API", "REST", "GraphQL", "microservices", "scalability"],
   readTime: "13 min read",
@@ -42,6 +42,7 @@ export const scalableApisBlog = {
   comments: 34,
   status: "published",
   seoTitle: "Building Scalable APIs - Best Practices & Architecture Guide",
-  seoDescription: "Learn best practices for creating robust, scalable API architectures with REST, GraphQL, and microservices patterns.",
-  featured: true
+  seoDescription:
+    "Learn best practices for creating robust, scalable API architectures with REST, GraphQL, and microservices patterns.",
+  featured: true,
 };

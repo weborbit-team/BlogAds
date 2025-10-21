@@ -1,8 +1,9 @@
 export const javascriptPatternsBlog = {
-  id: 8,
+  id: "675e4a328f1c2d3e4f567897",
   slug: "modern-javascript-patterns",
   title: "Modern JavaScript Patterns",
-  excerpt: "Advanced JavaScript patterns and techniques for modern development.",
+  excerpt:
+    "Advanced JavaScript patterns and techniques for modern development.",
   content: `
     <h2>Evolution of JavaScript</h2>
     <p>JavaScript continues to evolve with new patterns and best practices emerging regularly. Modern JavaScript development requires understanding of advanced concepts and patterns that improve code quality and maintainability.</p>
@@ -23,17 +24,17 @@ export const javascriptPatternsBlog = {
   publishedAt: "2024-12-13T10:00:00Z",
   updatedAt: "2024-12-13T10:00:00Z",
   author: {
-    id: 10,
+    id: "675e4a2b8f1c2d3e4f56780a",
     name: "JS Master",
     email: "js.master@blogads.com",
     avatar: "/images/authors/js-master.jpg",
-    bio: "JavaScript Expert and Frontend Architecture Specialist"
+    bio: "JavaScript Expert and Frontend Architecture Specialist",
   },
   category: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Development",
     slug: "development",
-    color: "#059669"
+    color: "#059669",
   },
   tags: ["JavaScript", "patterns", "async", "functional-programming"],
   readTime: "10 min read",
@@ -42,6 +43,7 @@ export const javascriptPatternsBlog = {
   comments: 42,
   status: "published",
   seoTitle: "Modern JavaScript Patterns - Advanced Development Techniques",
-  seoDescription: "Master advanced JavaScript patterns including async/await, functional programming, and performance optimization techniques.",
-  featured: false
+  seoDescription:
+    "Master advanced JavaScript patterns including async/await, functional programming, and performance optimization techniques.",
+  featured: false,
 };

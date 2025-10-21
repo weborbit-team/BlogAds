@@ -1,5 +1,5 @@
 export const aiWebDesignBlog = {
-  id: 11,
+  id: "675e4a358f1c2d3e4f56789a",
   title: "AI in Modern Web Design",
   excerpt: "How artificial intelligence is transforming web design practices.",
   content: `
@@ -25,5 +25,5 @@ export const aiWebDesignBlog = {
   author: "Jane Smith",
   category: "Design",
   readTime: "9 min read",
-  tags: ["AI", "web design", "UX", "automation"]
+  tags: ["AI", "web design", "UX", "automation"],
 };

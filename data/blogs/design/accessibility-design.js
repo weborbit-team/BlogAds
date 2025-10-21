@@ -1,5 +1,5 @@
 export const accessibilityDesignBlog = {
-  id: 13,
+  id: "675e4a378f1c2d3e4f56789c",
   slug: "accessibility-first-design",
   title: "Accessibility-First Design",
   excerpt: "Creating inclusive digital experiences for all users.",
@@ -23,17 +23,17 @@ export const accessibilityDesignBlog = {
   publishedAt: "2024-12-13T14:00:00Z",
   updatedAt: "2024-12-13T14:00:00Z",
   author: {
-    id: 13,
+    id: "675e4a2b8f1c2d3e4f56780d",
     name: "A11y Expert",
     email: "a11y.expert@blogads.com",
     avatar: "/images/authors/a11y-expert.jpg",
-    bio: "Accessibility Specialist and Inclusive Design Advocate"
+    bio: "Accessibility Specialist and Inclusive Design Advocate",
   },
   category: {
-    id: 3,
+    id: "675e4a2b8f1c2d3e4f567803",
     name: "Design",
     slug: "design",
-    color: "#dc2626"
+    color: "#dc2626",
   },
   tags: ["accessibility", "inclusive-design", "WCAG", "UX"],
   readTime: "11 min read",
@@ -41,7 +41,9 @@ export const accessibilityDesignBlog = {
   likes: 89,
   comments: 24,
   status: "published",
-  seoTitle: "Accessibility-First Design - Creating Inclusive Digital Experiences",
-  seoDescription: "Learn how to create accessible, inclusive digital experiences following WCAG guidelines and inclusive design principles.",
-  featured: false
+  seoTitle:
+    "Accessibility-First Design - Creating Inclusive Digital Experiences",
+  seoDescription:
+    "Learn how to create accessible, inclusive digital experiences following WCAG guidelines and inclusive design principles.",
+  featured: false,
 };

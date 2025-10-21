@@ -1,5 +1,5 @@
 export const designSystemsBlog = {
-  id: 12,
+  id: "675e4a368f1c2d3e4f56789b",
   slug: "design-systems-at-scale",
   title: "Design Systems at Scale",
   excerpt: "Building and maintaining design systems for large organizations.",
@@ -23,17 +23,17 @@ export const designSystemsBlog = {
   publishedAt: "2024-12-14T14:00:00Z",
   updatedAt: "2024-12-14T14:00:00Z",
   author: {
-    id: 5,
+    id: "675e4a2b8f1c2d3e4f567805",
     name: "Design Lead",
     email: "design.lead@blogads.com",
     avatar: "/images/authors/design-lead.jpg",
-    bio: "Design Systems Architect with 8+ years in enterprise design"
+    bio: "Design Systems Architect with 8+ years in enterprise design",
   },
   category: {
-    id: 3,
+    id: "675e4a2b8f1c2d3e4f567803",
     name: "Design",
     slug: "design",
-    color: "#dc2626"
+    color: "#dc2626",
   },
   tags: ["design-systems", "components", "tokens", "documentation"],
   readTime: "14 min read",
@@ -42,6 +42,7 @@ export const designSystemsBlog = {
   comments: 19,
   status: "published",
   seoTitle: "Design Systems at Scale - Building Consistent UI Libraries",
-  seoDescription: "Learn how to build and maintain design systems for large organizations with design tokens, component libraries, and governance models.",
-  featured: false
+  seoDescription:
+    "Learn how to build and maintain design systems for large organizations with design tokens, component libraries, and governance models.",
+  featured: false,
 };

@@ -1,9 +1,10 @@
 export const react19Blog = {
-  id: 6,
+  id: "675e4a308f1c2d3e4f567895",
   slug: "getting-started-react-19",
   title: "Getting Started with React 19",
   excerpt: "Learn about the latest features and improvements in React 19.",
-  featuredImage: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
+  featuredImage:
+    "https://images.unsplash.com/photo-1633356122544-f134324a6cee?w=800&h=400&fit=crop",
   content: `
     <h2>What's New in React 19</h2>
     <p>React 19 introduces groundbreaking features that will change how we build user interfaces. From the new React Compiler to improved Suspense handling, this version focuses on performance and developer experience.</p>
@@ -26,17 +27,17 @@ export const react19Blog = {
   publishedAt: "2024-12-15T10:00:00Z",
   updatedAt: "2024-12-15T10:00:00Z",
   author: {
-    id: 4,
+    id: "675e4a2b8f1c2d3e4f567804",
     name: "John Doe",
     email: "john.doe@blogads.com",
     avatar: "/images/authors/john-doe.jpg",
-    bio: "Senior Frontend Developer and React Expert"
+    bio: "Senior Frontend Developer and React Expert",
   },
   category: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Development",
     slug: "development",
-    color: "#059669"
+    color: "#059669",
   },
   readTime: "15 min read",
   views: 2341,
@@ -44,7 +45,8 @@ export const react19Blog = {
   comments: 56,
   status: "published",
   seoTitle: "Getting Started with React 19 - New Features & Migration Guide",
-  seoDescription: "Learn about React 19's groundbreaking features including the React Compiler, enhanced Suspense, and migration strategies.",
+  seoDescription:
+    "Learn about React 19's groundbreaking features including the React Compiler, enhanced Suspense, and migration strategies.",
   featured: true,
-  tags: ["React", "JavaScript", "frontend", "performance"]
+  tags: ["React", "JavaScript", "frontend", "performance"],
 };

@@ -1,5 +1,5 @@
 export const cybersecurityRemoteBlog = {
-  id: 5,
+  id: "675e4a2f8f1c2d3e4f567894",
   slug: "cybersecurity-remote-work",
   title: "Cybersecurity in the Age of Remote Work",
   excerpt: "Essential security practices for distributed teams.",
@@ -23,17 +23,17 @@ export const cybersecurityRemoteBlog = {
   publishedAt: "2024-12-11T08:00:00Z",
   updatedAt: "2024-12-11T08:00:00Z",
   author: {
-    id: 9,
+    id: "675e4a2b8f1c2d3e4f567809",
     name: "SecureMax",
     email: "secure.max@blogads.com",
     avatar: "/images/authors/secure-max.jpg",
-    bio: "Cybersecurity Consultant specializing in remote work security"
+    bio: "Cybersecurity Consultant specializing in remote work security",
   },
   category: {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567801",
     name: "Technology",
     slug: "technology",
-    color: "#2563eb"
+    color: "#2563eb",
   },
   tags: ["cybersecurity", "remote-work", "zero-trust", "endpoint-security"],
   readTime: "11 min read",
@@ -42,6 +42,7 @@ export const cybersecurityRemoteBlog = {
   comments: 38,
   status: "published",
   seoTitle: "Cybersecurity for Remote Work - Essential Security Practices",
-  seoDescription: "Learn essential cybersecurity practices for distributed teams including zero-trust architecture and endpoint security.",
-  featured: false
+  seoDescription:
+    "Learn essential cybersecurity practices for distributed teams including zero-trust architecture and endpoint security.",
+  featured: false,
 };

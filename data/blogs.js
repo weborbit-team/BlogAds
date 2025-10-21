@@ -1,313 +1,352 @@
 export const blogPosts = [
   // Technology
   {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567890",
     title: "The Future of Cloud Computing",
-    excerpt: "Exploring emerging trends in cloud technology and infrastructure.",
-    content: "Cloud computing continues to evolve at a rapid pace, with new technologies and approaches emerging regularly. In this comprehensive guide, we'll explore the latest trends shaping the future of cloud infrastructure, including serverless computing, edge computing, and multi-cloud strategies. These innovations are transforming how businesses approach scalability, cost optimization, and global reach.",
+    excerpt:
+      "Exploring emerging trends in cloud technology and infrastructure.",
+    content:
+      "Cloud computing continues to evolve at a rapid pace, with new technologies and approaches emerging regularly. In this comprehensive guide, we'll explore the latest trends shaping the future of cloud infrastructure, including serverless computing, edge computing, and multi-cloud strategies. These innovations are transforming how businesses approach scalability, cost optimization, and global reach.",
     date: "Dec 15, 2024",
     author: "David Brown",
     category: "Technology",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
-    id: 2,
+    id: "675e4a2c8f1c2d3e4f567891",
     title: "AI Revolution in 2024",
-    excerpt: "How artificial intelligence is transforming industries worldwide.",
-    content: "Artificial Intelligence has reached a tipping point in 2024, with breakthrough applications across healthcare, finance, and manufacturing. From generative AI models to autonomous systems, we're witnessing unprecedented innovation. This article examines the key AI trends, their practical applications, and the ethical considerations that come with this technological revolution.",
+    excerpt:
+      "How artificial intelligence is transforming industries worldwide.",
+    content:
+      "Artificial Intelligence has reached a tipping point in 2024, with breakthrough applications across healthcare, finance, and manufacturing. From generative AI models to autonomous systems, we're witnessing unprecedented innovation. This article examines the key AI trends, their practical applications, and the ethical considerations that come with this technological revolution.",
     date: "Dec 14, 2024",
     author: "Sarah Tech",
     category: "Technology",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
-    id: 3,
+    id: "675e4a2d8f1c2d3e4f567892",
     title: "Quantum Computing Breakthroughs",
-    excerpt: "Latest advances in quantum computing and their real-world applications.",
-    content: "Quantum computing is moving from theoretical possibility to practical reality. Recent breakthroughs in quantum error correction and qubit stability are bringing us closer to quantum advantage in real-world applications. This article explores the current state of quantum computing, major players in the field, and potential applications in cryptography, drug discovery, and optimization problems.",
+    excerpt:
+      "Latest advances in quantum computing and their real-world applications.",
+    content:
+      "Quantum computing is moving from theoretical possibility to practical reality. Recent breakthroughs in quantum error correction and qubit stability are bringing us closer to quantum advantage in real-world applications. This article explores the current state of quantum computing, major players in the field, and potential applications in cryptography, drug discovery, and optimization problems.",
     date: "Dec 13, 2024",
     author: "Dr. Quantum",
     category: "Technology",
-    readTime: "12 min read"
+    readTime: "12 min read",
   },
   {
-    id: 4,
+    id: "675e4a2e8f1c2d3e4f567893",
     title: "5G and Beyond: The Future of Connectivity",
     excerpt: "Exploring the impact of 5G networks and what comes next.",
-    content: "5G networks are revolutionizing connectivity with ultra-low latency and massive bandwidth capabilities. But what comes after 5G? This article examines the current 5G deployment, its applications in IoT, autonomous vehicles, and smart cities, while also looking ahead to 6G research and the potential for even more transformative connectivity solutions.",
+    content:
+      "5G networks are revolutionizing connectivity with ultra-low latency and massive bandwidth capabilities. But what comes after 5G? This article examines the current 5G deployment, its applications in IoT, autonomous vehicles, and smart cities, while also looking ahead to 6G research and the potential for even more transformative connectivity solutions.",
     date: "Dec 12, 2024",
     author: "Network Pro",
     category: "Technology",
-    readTime: "9 min read"
+    readTime: "9 min read",
   },
   {
-    id: 5,
+    id: "675e4a2f8f1c2d3e4f567894",
     title: "Cybersecurity in the Age of Remote Work",
     excerpt: "Essential security practices for distributed teams.",
-    content: "The shift to remote work has fundamentally changed the cybersecurity landscape. Traditional perimeter-based security models are no longer sufficient. This comprehensive guide covers zero-trust architecture, endpoint security, secure communication tools, and best practices for maintaining security in a distributed workforce environment.",
+    content:
+      "The shift to remote work has fundamentally changed the cybersecurity landscape. Traditional perimeter-based security models are no longer sufficient. This comprehensive guide covers zero-trust architecture, endpoint security, secure communication tools, and best practices for maintaining security in a distributed workforce environment.",
     date: "Dec 11, 2024",
     author: "SecureMax",
     category: "Technology",
-    readTime: "11 min read"
+    readTime: "11 min read",
   },
 
   // Development
   {
-    id: 6,
+    id: "675e4a308f1c2d3e4f567895",
     title: "Getting Started with React 19",
     excerpt: "Learn about the latest features and improvements in React 19.",
-    content: "React 19 introduces groundbreaking features that will change how we build user interfaces. From the new React Compiler to improved Suspense handling, this version focuses on performance and developer experience. We'll explore the new hooks, concurrent features, and migration strategies to help you upgrade your applications smoothly.",
+    content:
+      "React 19 introduces groundbreaking features that will change how we build user interfaces. From the new React Compiler to improved Suspense handling, this version focuses on performance and developer experience. We'll explore the new hooks, concurrent features, and migration strategies to help you upgrade your applications smoothly.",
     date: "Dec 15, 2024",
     author: "John Doe",
     category: "Development",
-    readTime: "15 min read"
+    readTime: "15 min read",
   },
   {
-    id: 7,
+    id: "675e4a318f1c2d3e4f567896",
     title: "Building Scalable APIs",
-    excerpt: "Best practices for creating robust and scalable API architectures.",
-    content: "Designing scalable APIs requires careful consideration of architecture patterns, caching strategies, and performance optimization. This guide covers RESTful design principles, GraphQL implementation, microservices architecture, and monitoring strategies. Learn how to build APIs that can handle millions of requests while maintaining reliability and performance.",
+    excerpt:
+      "Best practices for creating robust and scalable API architectures.",
+    content:
+      "Designing scalable APIs requires careful consideration of architecture patterns, caching strategies, and performance optimization. This guide covers RESTful design principles, GraphQL implementation, microservices architecture, and monitoring strategies. Learn how to build APIs that can handle millions of requests while maintaining reliability and performance.",
     date: "Dec 14, 2024",
     author: "Mike Johnson",
     category: "Development",
-    readTime: "13 min read"
+    readTime: "13 min read",
   },
   {
-    id: 8,
+    id: "675e4a328f1c2d3e4f567897",
     title: "Modern JavaScript Patterns",
-    excerpt: "Advanced JavaScript patterns and techniques for modern development.",
-    content: "JavaScript continues to evolve with new patterns and best practices emerging regularly. This article explores advanced concepts like async/await patterns, functional programming techniques, module systems, and performance optimization strategies. Perfect for developers looking to level up their JavaScript skills.",
+    excerpt:
+      "Advanced JavaScript patterns and techniques for modern development.",
+    content:
+      "JavaScript continues to evolve with new patterns and best practices emerging regularly. This article explores advanced concepts like async/await patterns, functional programming techniques, module systems, and performance optimization strategies. Perfect for developers looking to level up their JavaScript skills.",
     date: "Dec 13, 2024",
     author: "JS Master",
     category: "Development",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
-    id: 9,
+    id: "675e4a338f1c2d3e4f567898",
     title: "Docker and Kubernetes Mastery",
     excerpt: "Complete guide to containerization and orchestration.",
-    content: "Containerization has become essential for modern application deployment. This comprehensive guide covers Docker fundamentals, container optimization, Kubernetes orchestration, and deployment strategies. Learn how to build, deploy, and manage containerized applications at scale with confidence.",
+    content:
+      "Containerization has become essential for modern application deployment. This comprehensive guide covers Docker fundamentals, container optimization, Kubernetes orchestration, and deployment strategies. Learn how to build, deploy, and manage containerized applications at scale with confidence.",
     date: "Dec 12, 2024",
     author: "DevOps Pro",
     category: "Development",
-    readTime: "16 min read"
+    readTime: "16 min read",
   },
   {
-    id: 10,
+    id: "675e4a348f1c2d3e4f567899",
     title: "Testing Strategies for Modern Apps",
     excerpt: "Comprehensive testing approaches for reliable software.",
-    content: "Effective testing is crucial for maintaining code quality and user satisfaction. This guide covers unit testing, integration testing, end-to-end testing, and test-driven development. Learn about modern testing frameworks, automation strategies, and how to build a robust testing pipeline for your applications.",
+    content:
+      "Effective testing is crucial for maintaining code quality and user satisfaction. This guide covers unit testing, integration testing, end-to-end testing, and test-driven development. Learn about modern testing frameworks, automation strategies, and how to build a robust testing pipeline for your applications.",
     date: "Dec 11, 2024",
     author: "Test Guru",
     category: "Development",
-    readTime: "12 min read"
+    readTime: "12 min read",
   },
 
   // Design
   {
-    id: 11,
+    id: "675e4a358f1c2d3e4f56789a",
     title: "AI in Modern Web Design",
-    excerpt: "How artificial intelligence is transforming web design practices.",
-    content: "AI is revolutionizing web design through automated layout generation, intelligent color palette selection, and personalized user experiences. This article explores AI-powered design tools, machine learning applications in UX, and how designers can leverage AI to enhance creativity while maintaining human-centered design principles.",
+    excerpt:
+      "How artificial intelligence is transforming web design practices.",
+    content:
+      "AI is revolutionizing web design through automated layout generation, intelligent color palette selection, and personalized user experiences. This article explores AI-powered design tools, machine learning applications in UX, and how designers can leverage AI to enhance creativity while maintaining human-centered design principles.",
     date: "Dec 15, 2024",
     author: "Jane Smith",
     category: "Design",
-    readTime: "9 min read"
+    readTime: "9 min read",
   },
   {
-    id: 12,
+    id: "675e4a368f1c2d3e4f56789b",
     title: "Design Systems at Scale",
     excerpt: "Building and maintaining design systems for large organizations.",
-    content: "Design systems are essential for maintaining consistency across large-scale applications. This comprehensive guide covers design token implementation, component libraries, documentation strategies, and governance models. Learn how to create design systems that scale with your organization and improve design-development collaboration.",
+    content:
+      "Design systems are essential for maintaining consistency across large-scale applications. This comprehensive guide covers design token implementation, component libraries, documentation strategies, and governance models. Learn how to create design systems that scale with your organization and improve design-development collaboration.",
     date: "Dec 14, 2024",
     author: "Design Lead",
     category: "Design",
-    readTime: "14 min read"
+    readTime: "14 min read",
   },
   {
-    id: 13,
+    id: "675e4a378f1c2d3e4f56789c",
     title: "Accessibility-First Design",
     excerpt: "Creating inclusive digital experiences for all users.",
-    content: "Accessibility should be a fundamental consideration in every design decision. This guide covers WCAG guidelines, inclusive design principles, assistive technology compatibility, and practical techniques for creating accessible interfaces. Learn how to design experiences that work for users of all abilities.",
+    content:
+      "Accessibility should be a fundamental consideration in every design decision. This guide covers WCAG guidelines, inclusive design principles, assistive technology compatibility, and practical techniques for creating accessible interfaces. Learn how to design experiences that work for users of all abilities.",
     date: "Dec 13, 2024",
     author: "A11y Expert",
     category: "Design",
-    readTime: "11 min read"
+    readTime: "11 min read",
   },
   {
-    id: 14,
+    id: "675e4a388f1c2d3e4f56789d",
     title: "Motion Design for Web",
     excerpt: "Enhancing user experience through thoughtful animations.",
-    content: "Motion design can significantly enhance user experience when applied thoughtfully. This article explores animation principles, CSS animations, JavaScript animation libraries, and performance considerations. Learn how to create engaging, purposeful animations that guide users and improve interface usability.",
+    content:
+      "Motion design can significantly enhance user experience when applied thoughtfully. This article explores animation principles, CSS animations, JavaScript animation libraries, and performance considerations. Learn how to create engaging, purposeful animations that guide users and improve interface usability.",
     date: "Dec 12, 2024",
     author: "Motion Designer",
     category: "Design",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
-    id: 15,
+    id: "675e4a398f1c2d3e4f56789e",
     title: "Color Theory in Digital Design",
-    excerpt: "Understanding color psychology and application in digital interfaces.",
-    content: "Color plays a crucial role in user perception and behavior. This comprehensive guide covers color theory fundamentals, psychological impacts of color choices, accessibility considerations, and practical application in digital design. Learn how to create effective color palettes that enhance user experience and brand communication.",
+    excerpt:
+      "Understanding color psychology and application in digital interfaces.",
+    content:
+      "Color plays a crucial role in user perception and behavior. This comprehensive guide covers color theory fundamentals, psychological impacts of color choices, accessibility considerations, and practical application in digital design. Learn how to create effective color palettes that enhance user experience and brand communication.",
     date: "Dec 11, 2024",
     author: "Color Expert",
     category: "Design",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
 
   // Business
   {
-    id: 16,
+    id: "675e4a3a8f1c2d3e4f56789f",
     title: "Digital Transformation Strategies",
     excerpt: "Leading successful digital transformation initiatives.",
-    content: "Digital transformation is no longer optional for businesses seeking to remain competitive. This guide covers transformation frameworks, change management strategies, technology adoption, and measuring success. Learn how to lead digital initiatives that drive real business value and organizational growth.",
+    content:
+      "Digital transformation is no longer optional for businesses seeking to remain competitive. This guide covers transformation frameworks, change management strategies, technology adoption, and measuring success. Learn how to lead digital initiatives that drive real business value and organizational growth.",
     date: "Dec 15, 2024",
     author: "Business Strategist",
     category: "Business",
-    readTime: "12 min read"
+    readTime: "12 min read",
   },
   {
-    id: 17,
+    id: "675e4a3b8f1c2d3e4f5678a0",
     title: "Remote Team Management",
     excerpt: "Best practices for managing distributed teams effectively.",
-    content: "Managing remote teams requires different skills and approaches than traditional in-person management. This article covers communication strategies, productivity tools, team building techniques, and performance management for distributed teams. Learn how to build strong, productive remote teams that deliver exceptional results.",
+    content:
+      "Managing remote teams requires different skills and approaches than traditional in-person management. This article covers communication strategies, productivity tools, team building techniques, and performance management for distributed teams. Learn how to build strong, productive remote teams that deliver exceptional results.",
     date: "Dec 14, 2024",
     author: "Team Leader",
     category: "Business",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
-    id: 18,
+    id: "675e4a3c8f1c2d3e4f5678a1",
     title: "Startup Funding Landscape 2024",
     excerpt: "Navigating the current investment environment for startups.",
-    content: "The startup funding landscape has evolved significantly in recent years. This comprehensive analysis covers current market conditions, investor preferences, funding stages, and alternative financing options. Essential reading for entrepreneurs seeking to understand and navigate today's investment environment.",
+    content:
+      "The startup funding landscape has evolved significantly in recent years. This comprehensive analysis covers current market conditions, investor preferences, funding stages, and alternative financing options. Essential reading for entrepreneurs seeking to understand and navigate today's investment environment.",
     date: "Dec 13, 2024",
     author: "Venture Analyst",
     category: "Business",
-    readTime: "13 min read"
+    readTime: "13 min read",
   },
   {
-    id: 19,
+    id: "675e4a3d8f1c2d3e4f5678a2",
     title: "Customer Experience Excellence",
     excerpt: "Building customer-centric organizations that drive loyalty.",
-    content: "Exceptional customer experience is a key differentiator in today's competitive market. This guide covers customer journey mapping, touchpoint optimization, feedback systems, and organizational alignment around customer needs. Learn how to create experiences that delight customers and drive business growth.",
+    content:
+      "Exceptional customer experience is a key differentiator in today's competitive market. This guide covers customer journey mapping, touchpoint optimization, feedback systems, and organizational alignment around customer needs. Learn how to create experiences that delight customers and drive business growth.",
     date: "Dec 12, 2024",
     author: "CX Specialist",
     category: "Business",
-    readTime: "11 min read"
+    readTime: "11 min read",
   },
   {
-    id: 20,
+    id: "675e4a3e8f1c2d3e4f5678a3",
     title: "Agile Business Operations",
     excerpt: "Implementing agile methodologies beyond software development.",
-    content: "Agile principles can transform business operations across all departments. This article explores agile frameworks for marketing, HR, finance, and operations. Learn how to implement iterative processes, improve collaboration, and increase organizational responsiveness to market changes.",
+    content:
+      "Agile principles can transform business operations across all departments. This article explores agile frameworks for marketing, HR, finance, and operations. Learn how to implement iterative processes, improve collaboration, and increase organizational responsiveness to market changes.",
     date: "Dec 11, 2024",
     author: "Agile Coach",
     category: "Business",
-    readTime: "9 min read"
+    readTime: "9 min read",
   },
 
   // Marketing
   {
-    id: 21,
+    id: "675e4a3f8f1c2d3e4f5678a4",
     title: "Digital Marketing Trends 2024",
     excerpt: "The latest trends shaping digital marketing strategies.",
-    content: "Digital marketing continues to evolve with new platforms, technologies, and consumer behaviors. This comprehensive overview covers emerging trends in social media marketing, influencer partnerships, AI-powered personalization, and privacy-first marketing strategies. Stay ahead of the curve with these actionable insights.",
+    content:
+      "Digital marketing continues to evolve with new platforms, technologies, and consumer behaviors. This comprehensive overview covers emerging trends in social media marketing, influencer partnerships, AI-powered personalization, and privacy-first marketing strategies. Stay ahead of the curve with these actionable insights.",
     date: "Dec 15, 2024",
     author: "Sarah Wilson",
     category: "Marketing",
-    readTime: "11 min read"
+    readTime: "11 min read",
   },
   {
-    id: 22,
+    id: "675e4a408f1c2d3e4f5678a5",
     title: "Content Marketing Mastery",
-    excerpt: "Creating compelling content that drives engagement and conversions.",
-    content: "Effective content marketing requires strategic planning, audience understanding, and consistent execution. This guide covers content strategy development, storytelling techniques, distribution channels, and performance measurement. Learn how to create content that resonates with your audience and drives business results.",
+    excerpt:
+      "Creating compelling content that drives engagement and conversions.",
+    content:
+      "Effective content marketing requires strategic planning, audience understanding, and consistent execution. This guide covers content strategy development, storytelling techniques, distribution channels, and performance measurement. Learn how to create content that resonates with your audience and drives business results.",
     date: "Dec 14, 2024",
     author: "Content Pro",
     category: "Marketing",
-    readTime: "13 min read"
+    readTime: "13 min read",
   },
   {
-    id: 23,
+    id: "675e4a418f1c2d3e4f5678a6",
     title: "Social Media Strategy 2024",
     excerpt: "Building effective social media presence across platforms.",
-    content: "Social media marketing requires platform-specific strategies and authentic engagement. This article covers platform best practices, content planning, community management, and social commerce. Learn how to build meaningful connections with your audience and drive business growth through social media.",
+    content:
+      "Social media marketing requires platform-specific strategies and authentic engagement. This article covers platform best practices, content planning, community management, and social commerce. Learn how to build meaningful connections with your audience and drive business growth through social media.",
     date: "Dec 13, 2024",
     author: "Social Media Expert",
     category: "Marketing",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
-    id: 24,
+    id: "675e4a428f1c2d3e4f5678a7",
     title: "Email Marketing Renaissance",
     excerpt: "Modern email marketing strategies that deliver results.",
-    content: "Email marketing remains one of the highest ROI marketing channels when executed properly. This guide covers list building, segmentation strategies, automation workflows, and personalization techniques. Learn how to create email campaigns that engage subscribers and drive conversions in today's competitive inbox environment.",
+    content:
+      "Email marketing remains one of the highest ROI marketing channels when executed properly. This guide covers list building, segmentation strategies, automation workflows, and personalization techniques. Learn how to create email campaigns that engage subscribers and drive conversions in today's competitive inbox environment.",
     date: "Dec 12, 2024",
     author: "Email Specialist",
     category: "Marketing",
-    readTime: "9 min read"
+    readTime: "9 min read",
   },
   {
-    id: 25,
+    id: "675e4a438f1c2d3e4f5678a8",
     title: "Performance Marketing Analytics",
     excerpt: "Data-driven approaches to marketing optimization.",
-    content: "Successful marketing requires continuous measurement and optimization. This comprehensive guide covers key performance indicators, attribution modeling, A/B testing, and analytics tools. Learn how to make data-driven decisions that improve marketing performance and maximize return on investment.",
+    content:
+      "Successful marketing requires continuous measurement and optimization. This comprehensive guide covers key performance indicators, attribution modeling, A/B testing, and analytics tools. Learn how to make data-driven decisions that improve marketing performance and maximize return on investment.",
     date: "Dec 11, 2024",
     author: "Analytics Pro",
     category: "Marketing",
-    readTime: "12 min read"
+    readTime: "12 min read",
   },
 
   // Lifestyle
   {
-    id: 26,
+    id: "675e4a448f1c2d3e4f5678a9",
     title: "Work-Life Balance in Tech",
-    excerpt: "Tips for maintaining healthy work-life balance in the tech industry.",
-    content: "The tech industry's fast-paced environment can make work-life balance challenging. This article provides practical strategies for setting boundaries, managing stress, and maintaining personal well-being while building a successful tech career. Learn how to thrive professionally without sacrificing your personal life.",
+    excerpt:
+      "Tips for maintaining healthy work-life balance in the tech industry.",
+    content:
+      "The tech industry's fast-paced environment can make work-life balance challenging. This article provides practical strategies for setting boundaries, managing stress, and maintaining personal well-being while building a successful tech career. Learn how to thrive professionally without sacrificing your personal life.",
     date: "Dec 15, 2024",
     author: "Emily Davis",
     category: "Lifestyle",
-    readTime: "8 min read"
+    readTime: "8 min read",
   },
   {
-    id: 27,
+    id: "675e4a458f1c2d3e4f5678aa",
     title: "Remote Work Productivity Hacks",
     excerpt: "Maximizing productivity while working from home.",
-    content: "Remote work offers flexibility but requires discipline and effective strategies. This guide covers workspace setup, time management techniques, communication best practices, and maintaining motivation. Learn how to create a productive remote work environment that supports both professional success and personal well-being.",
+    content:
+      "Remote work offers flexibility but requires discipline and effective strategies. This guide covers workspace setup, time management techniques, communication best practices, and maintaining motivation. Learn how to create a productive remote work environment that supports both professional success and personal well-being.",
     date: "Dec 14, 2024",
     author: "Productivity Guru",
     category: "Lifestyle",
-    readTime: "10 min read"
+    readTime: "10 min read",
   },
   {
-    id: 28,
+    id: "675e4a468f1c2d3e4f5678ab",
     title: "Digital Minimalism for Professionals",
     excerpt: "Reducing digital clutter to improve focus and well-being.",
-    content: "Digital overwhelm is a growing challenge in our connected world. This article explores digital minimalism principles, app management strategies, and techniques for reducing screen time. Learn how to create a more intentional relationship with technology that supports your goals and well-being.",
+    content:
+      "Digital overwhelm is a growing challenge in our connected world. This article explores digital minimalism principles, app management strategies, and techniques for reducing screen time. Learn how to create a more intentional relationship with technology that supports your goals and well-being.",
     date: "Dec 13, 2024",
     author: "Mindful Tech",
     category: "Lifestyle",
-    readTime: "9 min read"
+    readTime: "9 min read",
   },
   {
-    id: 29,
+    id: "675e4a478f1c2d3e4f5678ac",
     title: "Building Healthy Habits",
     excerpt: "Science-based approaches to habit formation and maintenance.",
-    content: "Sustainable habit formation requires understanding the psychology of behavior change. This guide covers habit stacking, environmental design, motivation strategies, and overcoming common obstacles. Learn how to build positive habits that stick and create lasting improvements in your personal and professional life.",
+    content:
+      "Sustainable habit formation requires understanding the psychology of behavior change. This guide covers habit stacking, environmental design, motivation strategies, and overcoming common obstacles. Learn how to build positive habits that stick and create lasting improvements in your personal and professional life.",
     date: "Dec 12, 2024",
     author: "Habit Coach",
     category: "Lifestyle",
-    readTime: "11 min read"
+    readTime: "11 min read",
   },
   {
-    id: 30,
+    id: "675e4a488f1c2d3e4f5678ad",
     title: "Mindfulness for Busy Professionals",
     excerpt: "Incorporating mindfulness practices into a demanding schedule.",
-    content: "Mindfulness can significantly improve focus, stress management, and overall well-being. This practical guide covers meditation techniques, mindful work practices, and stress reduction strategies that fit into busy professional schedules. Learn how to cultivate presence and awareness in your daily life.",
+    content:
+      "Mindfulness can significantly improve focus, stress management, and overall well-being. This practical guide covers meditation techniques, mindful work practices, and stress reduction strategies that fit into busy professional schedules. Learn how to cultivate presence and awareness in your daily life.",
     date: "Dec 11, 2024",
     author: "Mindfulness Teacher",
     category: "Lifestyle",
-    readTime: "7 min read"
-  }
+    readTime: "7 min read",
+  },
 ];

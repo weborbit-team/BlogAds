@@ -1,9 +1,10 @@
 export const digitalMarketingTrendsBlog = {
-  id: 21,
+  id: "675e4a3f8f1c2d3e4f5678a4",
   slug: "digital-marketing-trends-2024",
   title: "Digital Marketing Trends 2024",
   excerpt: "The latest trends shaping digital marketing strategies.",
-  featuredImage: "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=400&fit=crop",
+  featuredImage:
+    "https://images.unsplash.com/photo-1432888622747-4eb9a8efeb07?w=800&h=400&fit=crop",
   content: `
     <h2>The Evolution of Digital Marketing</h2>
     <p>Digital marketing continues to evolve with new platforms, technologies, and consumer behaviors. Staying ahead of trends is crucial for marketing success in 2024.</p>
@@ -23,25 +24,32 @@ export const digitalMarketingTrendsBlog = {
   publishedAt: "2024-12-15T11:00:00Z",
   updatedAt: "2024-12-15T11:00:00Z",
   author: {
-    id: 21,
+    id: "675e4a2b8f1c2d3e4f567815",
     name: "Sarah Wilson",
     email: "sarah.wilson@blogads.com",
     avatar: "/images/authors/sarah-wilson.jpg",
-    bio: "Digital Marketing Expert and Strategy Consultant"
+    bio: "Digital Marketing Expert and Strategy Consultant",
   },
   category: {
-    id: 5,
+    id: "675e4a2b8f1c2d3e4f567805",
     name: "Marketing",
     slug: "marketing",
-    color: "#f59e0b"
+    color: "#f59e0b",
   },
-  tags: ["digital-marketing", "trends", "AI", "personalization", "social-commerce"],
+  tags: [
+    "digital-marketing",
+    "trends",
+    "AI",
+    "personalization",
+    "social-commerce",
+  ],
   readTime: "11 min read",
   views: 2134,
   likes: 178,
   comments: 45,
   status: "published",
   seoTitle: "Digital Marketing Trends 2024 - Latest Strategies & Insights",
-  seoDescription: "Discover the latest digital marketing trends including AI personalization, privacy-first strategies, and social commerce growth.",
-  featured: true
+  seoDescription:
+    "Discover the latest digital marketing trends including AI personalization, privacy-first strategies, and social commerce growth.",
+  featured: true,
 };

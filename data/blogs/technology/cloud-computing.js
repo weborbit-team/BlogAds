@@ -1,9 +1,10 @@
 export const cloudComputingBlog = {
-  id: 1,
+  id: "675e4a2b8f1c2d3e4f567890",
   slug: "future-of-cloud-computing",
   title: "The Future of Cloud Computing",
   excerpt: "Exploring emerging trends in cloud technology and infrastructure.",
-  featuredImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
+  featuredImage:
+    "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=400&fit=crop",
   content: `
     <h2>Introduction</h2>
     <p>Cloud computing continues to evolve at a rapid pace, with new technologies and approaches emerging regularly. In this comprehensive guide, we'll explore the latest trends shaping the future of cloud infrastructure.</p>
@@ -23,17 +24,17 @@ export const cloudComputingBlog = {
   publishedAt: "2024-12-15T09:00:00Z",
   updatedAt: "2024-12-15T09:00:00Z",
   author: {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567800",
     name: "David Brown",
     email: "david.brown@blogads.com",
     avatar: "/images/authors/david-brown.jpg",
-    bio: "Cloud Architecture Expert with 10+ years experience"
+    bio: "Cloud Architecture Expert with 10+ years experience",
   },
   category: {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567801",
     name: "Technology",
     slug: "technology",
-    color: "#2563eb"
+    color: "#2563eb",
   },
   readTime: "8 min read",
   views: 1247,
@@ -41,7 +42,8 @@ export const cloudComputingBlog = {
   comments: 23,
   status: "published",
   seoTitle: "The Future of Cloud Computing - Trends & Innovations 2024",
-  seoDescription: "Discover the latest cloud computing trends including serverless, edge computing, and multi-cloud strategies shaping the future of technology.",
+  seoDescription:
+    "Discover the latest cloud computing trends including serverless, edge computing, and multi-cloud strategies shaping the future of technology.",
   featured: true,
-  tags: ["cloud", "serverless", "edge computing", "multi-cloud"]
+  tags: ["cloud", "serverless", "edge computing", "multi-cloud"],
 };

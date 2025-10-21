@@ -1,5 +1,5 @@
 export const dockerKubernetesBlog = {
-  id: 9,
+  id: "675e4a338f1c2d3e4f567898",
   slug: "docker-kubernetes-mastery",
   title: "Docker and Kubernetes Mastery",
   excerpt: "Complete guide to containerization and orchestration.",
@@ -23,17 +23,17 @@ export const dockerKubernetesBlog = {
   publishedAt: "2024-12-12T10:00:00Z",
   updatedAt: "2024-12-12T10:00:00Z",
   author: {
-    id: 11,
+    id: "675e4a2b8f1c2d3e4f56780b",
     name: "DevOps Pro",
     email: "devops.pro@blogads.com",
     avatar: "/images/authors/devops-pro.jpg",
-    bio: "DevOps Engineer specializing in containerization and orchestration"
+    bio: "DevOps Engineer specializing in containerization and orchestration",
   },
   category: {
-    id: 2,
+    id: "675e4a2b8f1c2d3e4f567802",
     name: "Development",
     slug: "development",
-    color: "#059669"
+    color: "#059669",
   },
   tags: ["Docker", "Kubernetes", "containerization", "orchestration"],
   readTime: "16 min read",
@@ -42,6 +42,7 @@ export const dockerKubernetesBlog = {
   comments: 67,
   status: "published",
   seoTitle: "Docker and Kubernetes Mastery - Complete Containerization Guide",
-  seoDescription: "Master Docker and Kubernetes with this comprehensive guide covering containerization, orchestration, and deployment strategies.",
-  featured: true
+  seoDescription:
+    "Master Docker and Kubernetes with this comprehensive guide covering containerization, orchestration, and deployment strategies.",
+  featured: true,
 };

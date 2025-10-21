@@ -1,8 +1,9 @@
 export const quantumComputingBlog = {
-  id: 3,
+  id: "675e4a2d8f1c2d3e4f567892",
   slug: "quantum-computing-breakthroughs",
   title: "Quantum Computing Breakthroughs",
-  excerpt: "Latest advances in quantum computing and their real-world applications.",
+  excerpt:
+    "Latest advances in quantum computing and their real-world applications.",
   content: `
     <h2>The Quantum Revolution</h2>
     <p>Quantum computing is moving from theoretical possibility to practical reality. Recent breakthroughs in quantum error correction and qubit stability are bringing us closer to quantum advantage in real-world applications.</p>
@@ -20,17 +21,17 @@ export const quantumComputingBlog = {
   publishedAt: "2024-12-13T08:00:00Z",
   updatedAt: "2024-12-13T08:00:00Z",
   author: {
-    id: 3,
+    id: "675e4a2b8f1c2d3e4f567803",
     name: "Dr. Quantum",
     email: "quantum@blogads.com",
     avatar: "/images/authors/dr-quantum.jpg",
-    bio: "Quantum Physics Researcher and Technology Evangelist"
+    bio: "Quantum Physics Researcher and Technology Evangelist",
   },
   category: {
-    id: 1,
+    id: "675e4a2b8f1c2d3e4f567801",
     name: "Technology",
     slug: "technology",
-    color: "#2563eb"
+    color: "#2563eb",
   },
   tags: ["quantum", "computing", "cryptography", "research"],
   readTime: "12 min read",
@@ -39,6 +40,7 @@ export const quantumComputingBlog = {
   comments: 15,
   status: "published",
   seoTitle: "Quantum Computing Breakthroughs - Real-World Applications 2024",
-  seoDescription: "Explore the latest quantum computing advances and their applications in cryptography, drug discovery, and optimization problems.",
-  featured: false
+  seoDescription:
+    "Explore the latest quantum computing advances and their applications in cryptography, drug discovery, and optimization problems.",
+  featured: false,
 };
