@@ -2,437 +2,414 @@
 import {
   Container,
   Typography,
-  Grid,
   Box,
   Paper,
+  Grid,
   Card,
   CardContent,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Chip,
+  Avatar,
+  Divider,
+  Stack,
 } from "@mui/material";
 import {
-  Speed,
+  Article,
   Security,
-  Devices,
-  Code,
-  Palette,
-  Build,
+  Favorite,
+  TrendingUp,
+  Nature,
+  School,
+  VolunteerActivism,
   CheckCircle,
-  Star,
-  Rocket,
-  Shield,
 } from "@mui/icons-material";
 
+export default function AboutPage() {
+  const features = [
+    {
+      icon: <Article />,
+      title: "Premium Content",
+      description:
+        "Expert-curated blogs with actionable insights and verified sources",
+    },
+    {
+      icon: <Security />,
+      title: "Privacy First",
+      description:
+        "Zero tracking, no data collection, completely anonymous reading",
+    },
+    {
+      icon: <Favorite />,
+      title: "Social Impact",
+      description: "Every read supports environmental and educational causes",
+    },
+  ];
 
-export default function InfoPage() {
+  const causes = [
+    {
+      icon: <Nature />,
+      title: "Environmental Conservation",
+      impact: "50,000+ Trees Planted",
+      color: "#22c55e",
+    },
+    {
+      icon: <School />,
+      title: "Education Access",
+      impact: "200+ Students Sponsored",
+      color: "#3b82f6",
+    },
+    {
+      icon: <VolunteerActivism />,
+      title: "Community Development",
+      impact: "15 Communities Supported",
+      color: "#a855f7",
+    },
+  ];
+
   return (
-    <Container sx={{ mt: 4, mb: 4, px: { xs: 2, sm: 3 } }}>
-        <Box
-          textAlign="center"
-          mb={6}
-          sx={{
-            background: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)",
-            borderRadius: 3,
-            p: 6,
-            position: "relative",
-            overflow: "hidden",
-            border: '1px solid',
-            borderColor: 'divider',
-            "&::before": {
-              content: '""',
-              position: "absolute",
-              top: 0,
-              left: 0,
-              right: 0,
-              bottom: 0,
-              background:
-                "linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(124, 58, 237, 0.05) 100%)",
-              zIndex: 1,
-            },
-          }}
+    <Container maxWidth="lg" sx={{ py: 8 }}>
+      {/* Hero Section */}
+      <Box textAlign="center" mb={8}>
+        <Typography
+          variant="h2"
+          component="h1"
+          gutterBottom
+          sx={{ fontWeight: 800, mb: 2 }}
         >
-          <Box sx={{ position: "relative", zIndex: 2 }}>
-            <Typography
-              variant="h2"
-              component="h1"
-              gutterBottom
-              sx={{ fontWeight: 700 }}
-            >
-              Technology Stack Info
-            </Typography>
-            <Typography variant="h5" color="text.secondary">
-              Learn about Next.js and Material-UI
-            </Typography>
-          </Box>
-        </Box>
-
-        <Grid container spacing={4}>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Paper sx={{ p: 3, height: "100%" }}>
-              <Typography variant="h4" component="h2" gutterBottom>
-                Next.js
-              </Typography>
-
-              <Typography variant="body1" paragraph>
-                Next.js is a React framework that gives you building blocks to
-                create web applications. It handles tooling and configuration
-                needed for React, and provides additional structure, features,
-                and optimizations for your application.
-              </Typography>
-
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Key Features
-              </Typography>
-              <List dense>
-                <ListItem>
-                  <ListItemIcon>
-                    <Speed color="primary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Server-Side Rendering (SSR)"
-                    secondary="Improved performance and SEO"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Rocket color="primary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Static Site Generation (SSG)"
-                    secondary="Pre-built pages for lightning-fast loading"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Code color="primary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="API Routes"
-                    secondary="Build full-stack applications"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Build color="primary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Built-in Optimization"
-                    secondary="Image, font, and script optimization"
-                  />
-                </ListItem>
-              </List>
-
-              <Box mt={3}>
-                <Typography variant="h6" gutterBottom>
-                  Why Choose Next.js?
-                </Typography>
-                <Box display="flex" flexWrap="wrap" gap={1}>
-                  <Chip label="Zero Config" size="small" />
-                  <Chip label="TypeScript Support" size="small" />
-                  <Chip label="File-based Routing" size="small" />
-                  <Chip label="Edge Functions" size="small" />
-                </Box>
-              </Box>
-            </Paper>
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Paper sx={{ p: 3, height: "100%" }}>
-              <Typography variant="h4" component="h2" gutterBottom>
-                Material-UI
-              </Typography>
-
-              <Typography variant="body1" paragraph>
-                MUI provides a simple, customizable, and accessible library of
-                React components. Follow your own design system, or start with
-                Material Design. It includes a comprehensive collection of
-                prebuilt components ready for production.
-              </Typography>
-
-              <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
-                Core Benefits
-              </Typography>
-              <List dense>
-                <ListItem>
-                  <ListItemIcon>
-                    <Palette color="secondary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Material Design"
-                    secondary="Google's design language implementation"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Devices color="secondary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Responsive Design"
-                    secondary="Mobile-first approach with breakpoints"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Security color="secondary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Accessibility"
-                    secondary="WAI-ARIA compliant components"
-                  />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <Star color="secondary" />
-                  </ListItemIcon>
-                  <ListItemText
-                    primary="Theming System"
-                    secondary="Powerful customization capabilities"
-                  />
-                </ListItem>
-              </List>
-
-              <Box mt={3}>
-                <Typography variant="h6" gutterBottom>
-                  Component Categories
-                </Typography>
-                <Box display="flex" flexWrap="wrap" gap={1}>
-                  <Chip label="Layout" size="small" color="secondary" />
-                  <Chip label="Navigation" size="small" color="secondary" />
-                  <Chip label="Inputs" size="small" color="secondary" />
-                  <Chip label="Data Display" size="small" color="secondary" />
-                </Box>
-              </Box>
-            </Paper>
-          </Grid>
-        </Grid>
-
-        <Box
-          sx={{
-            mt: 6,
-            p: 6,
-            background: "linear-gradient(135deg, #f1f5f9 0%, #e2e8f0 100%)",
-            borderRadius: 4,
-            position: "relative",
-            overflow: "hidden",
-            border: '1px solid',
-            borderColor: 'divider',
-          }}
+          About BlogAds
+        </Typography>
+        <Typography
+          variant="h5"
+          color="text.secondary"
+          sx={{ maxWidth: 600, mx: "auto", mb: 4 }}
         >
-          <Box sx={{ textAlign: "center", mb: 5 }}>
-            <Typography
-              variant="h3"
-              component="h2"
-              gutterBottom
+          Quality content that creates positive change while protecting your
+          privacy
+        </Typography>
+      </Box>
+
+      {/* Features Grid */}
+      <Grid container spacing={4} mb={8}>
+        {features.map((feature, index) => (
+          <Grid key={index} size={{ xs: 12, md: 4 }}>
+            <Card
               sx={{
-                fontWeight: 700,
-                color: 'primary.main',
+                height: "100%",
+                textAlign: "center",
+                transition: "transform 0.2s",
+                "&:hover": { transform: "translateY(-4px)" },
               }}
             >
-              Next.js + MUI
-            </Typography>
-            <Typography variant="h5" color="text.secondary">
-              The Perfect Development Stack
-            </Typography>
-          </Box>
+              <CardContent sx={{ p: 4 }}>
+                <Avatar
+                  sx={{
+                    width: 64,
+                    height: 64,
+                    mx: "auto",
+                    mb: 2,
+                    bgcolor: "primary.main",
+                  }}
+                >
+                  {feature.icon}
+                </Avatar>
+                <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+                  {feature.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  {feature.description}
+                </Typography>
+              </CardContent>
+            </Card>
+          </Grid>
+        ))}
+      </Grid>
 
+      {/* Mission Statement */}
+      <Paper
+        sx={{
+          p: 6,
+          mb: 8,
+          background: "linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%)",
+          border: "1px solid",
+          borderColor: "divider",
+        }}
+      >
+        <Typography
+          variant="h4"
+          component="h2"
+          gutterBottom
+          sx={{ fontWeight: 700 }}
+        >
+          Our Mission
+        </Typography>
+        <Typography
+          variant="body1"
+          paragraph
+          sx={{ fontSize: "1.1rem", lineHeight: 1.7 }}
+        >
+          BlogAds transforms how people consume content online. We curate
+          premium blogs that educate and inspire while channeling every reader
+          interaction into meaningful social causes. Your privacy remains
+          completely protected—no tracking, no data collection, just pure,
+          impactful content.
+        </Typography>
+      </Paper>
+
+      {/* Social Impact */}
+      <Box mb={8}>
+        <Typography
+          variant="h4"
+          component="h2"
+          textAlign="center"
+          gutterBottom
+          sx={{ fontWeight: 700, mb: 4 }}
+        >
+          Social Impact Through Reading
+        </Typography>
+        <Grid container spacing={3}>
+          {causes.map((cause, index) => (
+            <Grid key={index} size={{ xs: 12, sm: 4 }}>
+              <Card sx={{ textAlign: "center", p: 3 }}>
+                <Avatar
+                  sx={{
+                    width: 56,
+                    height: 56,
+                    mx: "auto",
+                    mb: 2,
+                    bgcolor: cause.color,
+                  }}
+                >
+                  {cause.icon}
+                </Avatar>
+                <Typography variant="h6" gutterBottom sx={{ fontWeight: 600 }}>
+                  {cause.title}
+                </Typography>
+                <Typography variant="body2" color="text.secondary" gutterBottom>
+                  {cause.impact}
+                </Typography>
+              </Card>
+            </Grid>
+          ))}
+        </Grid>
+      </Box>
+
+      {/* Privacy & Quality */}
+      <Grid container spacing={4}>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <Paper sx={{ p: 4, height: "100%" }}>
+            <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
+              Privacy Commitment
+            </Typography>
+            <Stack spacing={2}>
+              <Box display="flex" alignItems="center" gap={2}>
+                <CheckCircle color="success" />
+                <Typography>Zero data collection</Typography>
+              </Box>
+              <Box display="flex" alignItems="center" gap={2}>
+                <CheckCircle color="success" />
+                <Typography>No tracking or cookies</Typography>
+              </Box>
+
+              <Box display="flex" alignItems="center" gap={2}>
+                <CheckCircle color="success" />
+                <Typography>Anonymous browsing</Typography>
+              </Box>
+            </Stack>
+          </Paper>
+        </Grid>
+
+        <Grid size={{ xs: 12, md: 6 }}>
+          <Paper sx={{ p: 4, height: "100%" }}>
+            <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
+              Content Quality
+            </Typography>
+            <Stack spacing={2}>
+              <Box display="flex" alignItems="center" gap={2}>
+                <TrendingUp color="primary" />
+                <Typography>Expert-reviewed articles</Typography>
+              </Box>
+              <Box display="flex" alignItems="center" gap={2}>
+                <TrendingUp color="primary" />
+                <Typography>Fact-checked sources</Typography>
+              </Box>
+              <Box display="flex" alignItems="center" gap={2}>
+                <TrendingUp color="primary" />
+                <Typography>Community-driven topics</Typography>
+              </Box>
+              <Box display="flex" alignItems="center" gap={2}>
+                <TrendingUp color="primary" />
+                <Typography>Actionable insights</Typography>
+              </Box>
+            </Stack>
+          </Paper>
+        </Grid>
+      </Grid>
+
+      {/* Terms and Conditions */}
+      <Box mt={8}>
+        <Box textAlign="center" mb={6}>
+          <Typography variant="h4" gutterBottom sx={{ fontWeight: 700 }}>
+            Terms & Conditions
+          </Typography>
+          <Typography
+            variant="body1"
+            color="text.secondary"
+            sx={{ maxWidth: 600, mx: "auto" }}
+          >
+            These terms govern your use of BlogAds. By accessing our platform,
+            you agree to comply with these conditions.
+          </Typography>
+        </Box>
+
+        <Paper sx={{ p: 0, overflow: "hidden", borderRadius: 3 }}>
           <Box
             sx={{
-              display: "flex",
-              gap: 4,
-              justifyContent: "center",
-              flexWrap: "wrap",
+              background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+              p: 4,
+              color: "white",
+              textAlign: "center",
             }}
           >
-            <Box
-              sx={{
-                textAlign: "center",
-                p: 3,
-                borderRadius: 3,
-                background: "rgba(59, 130, 246, 0.1)",
-                border: "1px solid rgba(59, 130, 246, 0.2)",
-                transition: "all 0.3s ease",
-                minWidth: 280,
-                flex: "1 1 280px",
-                maxWidth: 320,
-                "&:hover": {
-                  transform: "translateY(-8px)",
-                  background: "rgba(59, 130, 246, 0.15)",
-                  boxShadow: "0 20px 40px rgba(59, 130, 246, 0.1)",
-                },
-              }}
+            <Typography variant="h5" sx={{ fontWeight: 600, color: "white" }}>
+              Legal Agreement
+            </Typography>
+            <Typography
+              variant="body2"
+              sx={{ color: "#fbbf24", fontWeight: 600, mt: 1 }}
             >
-              <Box
-                sx={{
-                  width: 80,
-                  height: 80,
-                  borderRadius: "50%",
-                  background:
-                    "linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  mx: "auto",
-                  mb: 3,
-                }}
-              >
-                <Speed sx={{ fontSize: 40, color: "white" }} />
-              </Box>
-              <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
-                Performance
-              </Typography>
-              <Typography variant="body1" color="text.secondary">
-                Lightning-fast SSR/SSG with optimized components for exceptional
-                user experience
-              </Typography>
-            </Box>
-
-            <Box
-              sx={{
-                textAlign: "center",
-                p: 3,
-                borderRadius: 3,
-                background: "rgba(139, 92, 246, 0.1)",
-                border: "1px solid rgba(139, 92, 246, 0.2)",
-                transition: "all 0.3s ease",
-                minWidth: 280,
-                flex: "1 1 280px",
-                maxWidth: 320,
-                "&:hover": {
-                  transform: "translateY(-8px)",
-                  background: "rgba(139, 92, 246, 0.15)",
-                  boxShadow: "0 20px 40px rgba(139, 92, 246, 0.1)",
-                },
-              }}
-            >
-              <Box
-                sx={{
-                  width: 80,
-                  height: 80,
-                  borderRadius: "50%",
-                  background:
-                    "linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  mx: "auto",
-                  mb: 3,
-                }}
-              >
-                <Palette sx={{ fontSize: 40, color: "white" }} />
-              </Box>
-              <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
-                Design System
-              </Typography>
-              <Typography variant="body1" color="text.secondary">
-                Beautiful Material Design with flexible theming for consistent,
-                modern interfaces
-              </Typography>
-            </Box>
-
-            <Box
-              sx={{
-                textAlign: "center",
-                p: 3,
-                borderRadius: 3,
-                background: "rgba(16, 185, 129, 0.1)",
-                border: "1px solid rgba(16, 185, 129, 0.2)",
-                transition: "all 0.3s ease",
-                minWidth: 280,
-                flex: "1 1 280px",
-                maxWidth: 320,
-                "&:hover": {
-                  transform: "translateY(-8px)",
-                  background: "rgba(16, 185, 129, 0.15)",
-                  boxShadow: "0 20px 40px rgba(16, 185, 129, 0.1)",
-                },
-              }}
-            >
-              <Box
-                sx={{
-                  width: 80,
-                  height: 80,
-                  borderRadius: "50%",
-                  background:
-                    "linear-gradient(135deg, #10b981 0%, #059669 100%)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  mx: "auto",
-                  mb: 3,
-                }}
-              >
-                <Shield sx={{ fontSize: 40, color: "white" }} />
-              </Box>
-              <Typography variant="h5" gutterBottom sx={{ fontWeight: 600 }}>
-                Enterprise Ready
-              </Typography>
-              <Typography variant="body1" color="text.secondary">
-                Battle-tested frameworks trusted by industry leaders worldwide
-              </Typography>
-            </Box>
+              Effective Date: 21/10/2025
+            </Typography>
           </Box>
-        </Box>
 
-        <Grid container spacing={3} sx={{ mt: 4 }}>
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Paper sx={{ p: 3, height: "100%" }}>
-              <Typography variant="h6" gutterBottom>
-                Next.js by the Numbers
-              </Typography>
-              <List>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="100k+ GitHub Stars" />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="Used by Netflix, Uber, Hulu" />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="5M+ weekly downloads" />
-                </ListItem>
-              </List>
-            </Paper>
-          </Grid>
+          <Box sx={{ p: 4 }}>
+            <Grid container spacing={0}>
+              {[
+                {
+                  title: "Content Policy & Family Safety",
+                  content:
+                    "BlogAds strictly prohibits pornographic, explicit, or adult content. We are committed to providing clean, educational, and family-friendly content suitable for all ages. All materials undergo content review to ensure appropriateness and educational value.",
+                },
+                {
+                  title: "Acceptance of Terms",
+                  content:
+                    "By accessing BlogAds, you agree to these terms. If you disagree with any part, please discontinue use immediately.",
+                },
+                {
+                  title: "User Information Risk",
+                  content:
+                    "Any personal information voluntarily shared by users through comments, feedback, or communication is done at their own risk. While we maintain security measures, users are responsible for protecting their personal data and should avoid sharing sensitive information.",
+                },
+                {
+                  title: "Content License & Usage",
+                  content:
+                    "All content is for personal, non-commercial use only. Reproduction, distribution, or modification requires written permission. Fair use excerpts with attribution are permitted.",
+                },
+                {
+                  title: "Intellectual Property",
+                  content:
+                    "BlogAds owns all original content, design, and trademarks. Third-party content remains property of respective owners.",
+                },
+                {
+                  title: "Privacy & Data Protection",
+                  content:
+                    "We collect zero personal data, use no cookies or tracking technologies. Your browsing remains completely anonymous and private.",
+                },
+                {
+                  title: "User Conduct",
+                  content:
+                    "Users must not attempt to hack, spam, or misuse the platform. Respectful engagement with content is expected.",
+                },
+                {
+                  title: "Content Standards",
+                  content:
+                    "All content undergoes expert review for accuracy, quality, and appropriateness. We maintain high editorial standards and provide only family-friendly, educational content suitable for all ages.",
+                },
+                {
+                  title: "Third-Party Links",
+                  content:
+                    "External links are provided for convenience. We're not responsible for third-party content, privacy policies, or practices.",
+                },
+                {
+                  title: "Service Availability",
+                  content:
+                    "We aim for 99.9% uptime but don't guarantee uninterrupted service. Maintenance and updates may cause temporary unavailability.",
+                },
+                {
+                  title: "Limitation of Liability",
+                  content:
+                    "BlogAds is not liable for any direct, indirect, or consequential damages arising from platform use or content reliance.",
+                },
+                {
+                  title: "Modifications & Contact",
+                  content:
+                    "Terms may be updated periodically. Continued use constitutes acceptance. Contact us for questions or concerns about these terms.",
+                },
+              ].map((term, index) => (
+                <Grid key={index} size={{ xs: 12 }}>
+                  <Box
+                    sx={{
+                      py: 3,
+                      px: 2,
+                      borderBottom: index < 9 ? "1px solid" : "none",
+                      borderColor: "divider",
+                      "&:hover": {
+                        bgcolor: "grey.50",
+                      },
+                    }}
+                  >
+                    <Typography
+                      variant="h6"
+                      gutterBottom
+                      sx={{ fontWeight: 600, color: "primary.main", mb: 1 }}
+                    >
+                      {index + 1}. {term.title}
+                    </Typography>
+                    <Typography
+                      variant="body2"
+                      color="text.secondary"
+                      sx={{ lineHeight: 1.7, pl: 2 }}
+                    >
+                      {term.content}
+                    </Typography>
+                  </Box>
+                </Grid>
+              ))}
+            </Grid>
+          </Box>
 
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Paper sx={{ p: 3, height: "100%" }}>
-              <Typography variant="h6" gutterBottom>
-                MUI Adoption
-              </Typography>
-              <List>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="90k+ GitHub Stars" />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="Used by NASA, Unity, Amazon" />
-                </ListItem>
-                <ListItem>
-                  <ListItemIcon>
-                    <CheckCircle color="success" />
-                  </ListItemIcon>
-                  <ListItemText primary="3M+ weekly downloads" />
-                </ListItem>
-              </List>
-            </Paper>
-          </Grid>
-        </Grid>
+          <Box sx={{ bgcolor: "grey.100", p: 3, textAlign: "center" }}>
+            <Typography
+              variant="body2"
+              color="text.secondary"
+              sx={{ fontWeight: 500 }}
+            >
+              By continuing to use BlogAds, you acknowledge that you have read,
+              understood, and agree to be bound by these terms.
+            </Typography>
+          </Box>
+        </Paper>
+      </Box>
+
+      {/* Call to Action */}
+      <Box
+        textAlign="center"
+        mt={6}
+        p={6}
+        sx={{
+          background: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+          borderRadius: 3,
+          color: "white",
+        }}
+      >
+        <Typography
+          variant="h4"
+          gutterBottom
+          sx={{ fontWeight: 700, color: "#ffffff" }}
+        >
+          Join Our Community
+        </Typography>
+        <Typography variant="h6" sx={{ color: "#e2e8f0" }}>
+          Read quality content. Support social causes. Protect your privacy.
+        </Typography>
+      </Box>
     </Container>
   );
 }
