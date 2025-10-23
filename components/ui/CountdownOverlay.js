@@ -16,20 +16,22 @@ const BottomCountdown = styled(Box)(({ theme }) => ({
   gap: theme.spacing(2),
 }));
 
-export function BottomCountdownButton() {
+export function BottomCountdownButton({ show = false }) {
   const [seconds, setSeconds] = useState(10);
   const [isComplete, setIsComplete] = useState(false);
   const [showCountdown, setShowCountdown] = useState(false);
   const [clicked, setClicked] = useState(false);
 
   useEffect(() => {
-    if (showCountdown && seconds > 0) {
+    if (show && showCountdown && seconds > 0) {
       const timer = setTimeout(() => setSeconds(seconds - 1), 2000);
       return () => clearTimeout(timer);
-    } else if (showCountdown && seconds === 0) {
+    } else if (show && showCountdown && seconds === 0) {
       setIsComplete(true);
     }
-  }, [seconds, showCountdown]);
+  }, [seconds, showCountdown, show]);
+
+  if (!show) return null;
 
   const handleClick = () => {
     if (!showCountdown) {
@@ -129,62 +131,72 @@ const CountdownText = styled(Typography)(({ theme }) => ({
   color: theme.palette.primary.main,
 }));
 
-export default function CountdownOverlay({ onComplete }) {
+export default function CountdownOverlay({ onComplete, onFirstContinue }) {
   const [seconds, setSeconds] = useState(10);
+  const [isCountingDown, setIsCountingDown] = useState(false);
   const [isComplete, setIsComplete] = useState(false);
   const [showSecondStep, setShowSecondStep] = useState(false);
 
   useEffect(() => {
-    if (seconds > 0) {
-      const timer = setTimeout(() => setSeconds(seconds - 1), 2000);
+    if (isCountingDown && seconds > 0) {
+      const timer = setTimeout(() => setSeconds(seconds - 1), 1000);
       return () => clearTimeout(timer);
-    } else {
+    } else if (isCountingDown && seconds === 0) {
       setIsComplete(true);
     }
-  }, [seconds]);
+  }, [seconds, isCountingDown]);
 
   const handleFirstClick = () => {
-    setShowSecondStep(true);
+    if (!isCountingDown) {
+      setIsCountingDown(true);
+    } else if (isComplete && !showSecondStep) {
+      setShowSecondStep(true);
+      if (onFirstContinue) {
+        onFirstContinue();
+      }
+    }
   };
 
-  const progress = ((10 - seconds) / 10) * 100;
+  const progress = isCountingDown ? ((10 - seconds) / 10) * 100 : 0;
 
   return (
     <CountdownContainer>
-      <ProgressContainer>
-        <CircularProgress
-          variant="determinate"
-          value={progress}
-          size={100}
-          thickness={4}
-          sx={{ color: "purple" }}
-        />
-        <CountdownText>{seconds}</CountdownText>
-      </ProgressContainer>
+      {isCountingDown && (
+        <ProgressContainer>
+          <CircularProgress
+            variant="determinate"
+            value={progress}
+            size={100}
+            thickness={4}
+            sx={{ color: "purple" }}
+          />
+          <CountdownText>{seconds}</CountdownText>
+        </ProgressContainer>
+      )}
 
       <Button
         variant="contained"
         size="large"
-        disabled={!isComplete || showSecondStep}
+        disabled={isCountingDown && !isComplete}
         onClick={handleFirstClick}
         sx={{
           minWidth: 200,
-          backgroundColor:
-            isComplete && !showSecondStep ? "purple" : "grey.500",
+          backgroundColor: (!isCountingDown || isComplete) && !showSecondStep ? "purple" : "grey.500",
           "&:hover": {
-            backgroundColor:
-              isComplete && !showSecondStep ? "purple" : "grey.500",
+            backgroundColor: (!isCountingDown || isComplete) && !showSecondStep ? "purple" : "grey.500",
           },
         }}
       >
-        {isComplete ? "Continue" : "Continue"}
+        Continue to Download
       </Button>
 
       <Typography variant="body2" color="grey.800">
-        {!isComplete
+        {!isCountingDown
+          ? "All ready to proceed! Click to continue"
+          : !isComplete
           ? `Please wait ${seconds} seconds to continue`
           : showSecondStep
-          ? "Go to below and click on continue"
+          ? "Go below and click on continue to complete process"
           : "Ready to proceed! Click to continue"}
       </Typography>
     </CountdownContainer>

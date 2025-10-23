@@ -36,6 +36,7 @@ export default function BlogDetailPage() {
   const [blog, setBlog] = useState(null);
   const [loading, setLoading] = useState(true);
   const [showCountdown, setShowCountdown] = useState(false);
+  const [showBottomCountdown, setShowBottomCountdown] = useState(false);
   const [showForm, setShowForm] = useState(false);
   const [showSuccessPopup, setShowSuccessPopup] = useState(false);
   const [countdown, setCountdown] = useState(10);
@@ -50,6 +51,10 @@ export default function BlogDetailPage() {
   const handleCountdownComplete = () => {
     sessionStorage.setItem("hasVisitedBlog", "true");
     setShowCountdown(false);
+  };
+
+  const handleFirstContinue = () => {
+    setShowBottomCountdown(true);
   };
 
   useEffect(() => {
@@ -238,7 +243,10 @@ export default function BlogDetailPage() {
       <Banner728Ads90 />
 
       {showCountdown && (
-        <CountdownOverlay onComplete={handleCountdownComplete} />
+        <CountdownOverlay 
+          onComplete={handleCountdownComplete} 
+          onFirstContinue={handleFirstContinue}
+        />
       )}
 
       <BlogContent content={blog.content} />
@@ -264,7 +272,7 @@ export default function BlogDetailPage() {
         </Button>
       </Box>
 
-      <BottomCountdownButton />
+      <BottomCountdownButton show={showBottomCountdown} />
       
       {/* Popunder Ad */}
       <PopunderAd />
