@@ -26,7 +26,7 @@ export const designSystemsBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567805",
     name: "Design Lead",
-    email: "design.lead@blogads.com",
+    email: "design.lead@readgo.com",
     avatar: "/images/authors/design-lead.jpg",
     bio: "Design Systems Architect with 8+ years in enterprise design",
   },

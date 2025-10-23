@@ -8,8 +8,15 @@ import {
   Button,
 } from "@mui/material";
 import { CalendarToday, Person } from "@mui/icons-material";
+import { useRouter } from "next/navigation";
 
 export default function PostCard({ post }) {
+  const router = useRouter();
+
+  const handleReadMore = () => {
+    router.push(`/blogs/${post.id}`);
+  };
+
   return (
     <Card sx={{ height: "100%", display: "flex", flexDirection: "column" }}>
       {post.featuredImage && (
@@ -54,6 +61,7 @@ export default function PostCard({ post }) {
         <Button
           variant="contained"
           fullWidth
+          onClick={handleReadMore}
           sx={{
             mt: 2,
             py: 1.5,

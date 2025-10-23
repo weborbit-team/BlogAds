@@ -24,7 +24,7 @@ export const quantumComputingBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567803",
     name: "Dr. Quantum",
-    email: "quantum@blogads.com",
+    email: "quantum@readgo.com",
     avatar: "/images/authors/dr-quantum.jpg",
     bio: "Quantum Physics Researcher and Technology Evangelist",
   },

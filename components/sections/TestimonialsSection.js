@@ -5,7 +5,7 @@ const testimonials = [
   {
     name: 'Sarah Johnson',
     role: 'Frontend Developer',
-    content: 'BlogAds has been my go-to resource for staying updated with the latest web development trends. The quality of content is exceptional.',
+    content: 'ReadGo has been my go-to resource for staying updated with the latest web development trends. The quality of content is exceptional.',
     rating: 5,
     avatar: 'S'
   },
@@ -19,7 +19,7 @@ const testimonials = [
   {
     name: 'Alex Rodriguez',
     role: 'Full Stack Developer',
-    content: 'From beginner tutorials to advanced concepts, BlogAds covers everything I need to grow as a developer.',
+    content: 'From beginner tutorials to advanced concepts, ReadGo covers everything I need to grow as a developer.',
     rating: 5,
     avatar: 'A'
   }

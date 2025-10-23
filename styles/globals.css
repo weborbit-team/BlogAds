@@ -42,6 +42,11 @@ body {
   padding-right: 16px;
 }
 
+.hero-section {
+  margin-left: -16px;
+  margin-right: -16px;
+}
+
 @media (min-width: 900px) {
   .desktop-nav {
     display: flex;

@@ -55,13 +55,13 @@ function BlogsContent() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Blog",
-    name: "NextMUI Blog",
+    name: "ReadGo Blog",
     description:
       "Comprehensive blog covering Technology, Development, Design, Business, Marketing, and Lifestyle topics",
     url: `${process.env.NEXT_PUBLIC_SITE_URL}/blogs`,
     publisher: {
       "@type": "Organization",
-      name: process.env.NEXT_PUBLIC_SITE_NAME || "NextMUI",
+      name: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo",
       url: process.env.NEXT_PUBLIC_SITE_URL,
     },
     blogPost: filteredPosts.map((post) => ({
@@ -76,7 +76,7 @@ function BlogsContent() {
       },
       publisher: {
         "@type": "Organization",
-        name: process.env.NEXT_PUBLIC_SITE_NAME || "NextMUI",
+        name: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo",
       },
     })),
   };
@@ -232,7 +232,9 @@ function BlogsContent() {
 
 export default function BlogsPage() {
   return (
-    <Suspense fallback={<Box sx={{ mt: 4, textAlign: "center" }}>Loading...</Box>}>
+    <Suspense
+      fallback={<Box sx={{ mt: 4, textAlign: "center" }}>Loading...</Box>}
+    >
       <BlogsContent />
     </Suspense>
   );

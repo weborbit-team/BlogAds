@@ -26,7 +26,7 @@ export const aiRevolutionBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567802",
     name: "Sarah Tech",
-    email: "sarah.tech@blogads.com",
+    email: "sarah.tech@readgo.com",
     avatar: "/images/authors/sarah-tech.jpg",
     bio: "AI Technology Specialist and Industry Analyst",
   },

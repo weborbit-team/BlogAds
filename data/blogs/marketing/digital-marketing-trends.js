@@ -26,7 +26,7 @@ export const digitalMarketingTrendsBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567815",
     name: "Sarah Wilson",
-    email: "sarah.wilson@blogads.com",
+    email: "sarah.wilson@readgo.com",
     avatar: "/images/authors/sarah-wilson.jpg",
     bio: "Digital Marketing Expert and Strategy Consultant",
   },

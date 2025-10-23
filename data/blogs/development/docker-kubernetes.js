@@ -26,7 +26,7 @@ export const dockerKubernetesBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780b",
     name: "DevOps Pro",
-    email: "devops.pro@blogads.com",
+    email: "devops.pro@readgo.com",
     avatar: "/images/authors/devops-pro.jpg",
     bio: "DevOps Engineer specializing in containerization and orchestration",
   },

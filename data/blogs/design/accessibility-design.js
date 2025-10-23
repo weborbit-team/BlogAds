@@ -26,7 +26,7 @@ export const accessibilityDesignBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780d",
     name: "A11y Expert",
-    email: "a11y.expert@blogads.com",
+    email: "a11y.expert@readgo.com",
     avatar: "/images/authors/a11y-expert.jpg",
     bio: "Accessibility Specialist and Inclusive Design Advocate",
   },

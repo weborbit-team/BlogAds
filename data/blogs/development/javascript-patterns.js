@@ -27,7 +27,7 @@ export const javascriptPatternsBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780a",
     name: "JS Master",
-    email: "js.master@blogads.com",
+    email: "js.master@readgo.com",
     avatar: "/images/authors/js-master.jpg",
     bio: "JavaScript Expert and Frontend Architecture Specialist",
   },

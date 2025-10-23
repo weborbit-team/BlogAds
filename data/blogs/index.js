@@ -127,7 +127,7 @@ export const blogApiResponse = {
         author: {
           id: 1,
           name: "David Brown",
-          email: "david.brown@blogads.com",
+          email: "david.brown@readgo.com",
           avatar: "/images/authors/david-brown.jpg",
           bio: "Cloud Architecture Expert with 10+ years experience",
         },
@@ -162,7 +162,7 @@ export const blogApiResponse = {
         author: {
           id: 2,
           name: "Sarah Tech",
-          email: "sarah.tech@blogads.com",
+          email: "sarah.tech@readgo.com",
           avatar: "/images/authors/sarah-tech.jpg",
           bio: "AI Technology Specialist and Industry Analyst",
         },
@@ -197,7 +197,7 @@ export const blogApiResponse = {
         author: {
           id: 3,
           name: "Dr. Quantum",
-          email: "quantum@blogads.com",
+          email: "quantum@readgo.com",
           avatar: "/images/authors/dr-quantum.jpg",
           bio: "Quantum Physics Researcher and Technology Evangelist",
         },
@@ -232,7 +232,7 @@ export const blogApiResponse = {
         author: {
           id: 8,
           name: "Network Pro",
-          email: "network.pro@blogads.com",
+          email: "network.pro@readgo.com",
           avatar: "/images/authors/network-pro.jpg",
           bio: "Telecommunications Engineer and 5G Technology Expert",
         },
@@ -266,7 +266,7 @@ export const blogApiResponse = {
         author: {
           id: 9,
           name: "SecureMax",
-          email: "secure.max@blogads.com",
+          email: "secure.max@readgo.com",
           avatar: "/images/authors/secure-max.jpg",
           bio: "Cybersecurity Consultant specializing in remote work security",
         },
@@ -309,7 +309,7 @@ export const blogApiResponse = {
         author: {
           id: 4,
           name: "John Doe",
-          email: "john.doe@blogads.com",
+          email: "john.doe@readgo.com",
           avatar: "/images/authors/john-doe.jpg",
           bio: "Senior Frontend Developer and React Expert",
         },
@@ -345,7 +345,7 @@ export const blogApiResponse = {
         author: {
           id: 5,
           name: "Mike Johnson",
-          email: "mike.johnson@blogads.com",
+          email: "mike.johnson@readgo.com",
           avatar: "/images/authors/mike-johnson.jpg",
           bio: "Senior Backend Engineer with expertise in distributed systems",
         },
@@ -381,7 +381,7 @@ export const blogApiResponse = {
         author: {
           id: 10,
           name: "JS Master",
-          email: "js.master@blogads.com",
+          email: "js.master@readgo.com",
           avatar: "/images/authors/js-master.jpg",
           bio: "JavaScript Expert and Frontend Architecture Specialist",
         },
@@ -416,7 +416,7 @@ export const blogApiResponse = {
         author: {
           id: 11,
           name: "DevOps Pro",
-          email: "devops.pro@blogads.com",
+          email: "devops.pro@readgo.com",
           avatar: "/images/authors/devops-pro.jpg",
           bio: "DevOps Engineer specializing in containerization and orchestration",
         },
@@ -451,7 +451,7 @@ export const blogApiResponse = {
         author: {
           id: 12,
           name: "Test Guru",
-          email: "test.guru@blogads.com",
+          email: "test.guru@readgo.com",
           avatar: "/images/authors/test-guru.jpg",
           bio: "Quality Assurance Expert and Testing Strategy Consultant",
         },
@@ -488,7 +488,7 @@ export const blogApiResponse = {
         author: {
           id: 6,
           name: "Jane Smith",
-          email: "jane.smith@blogads.com",
+          email: "jane.smith@readgo.com",
           avatar: "/images/authors/jane-smith.jpg",
           bio: "UX/UI Designer specializing in AI-powered design tools",
         },
@@ -523,7 +523,7 @@ export const blogApiResponse = {
         author: {
           id: 7,
           name: "Design Lead",
-          email: "design.lead@blogads.com",
+          email: "design.lead@readgo.com",
           avatar: "/images/authors/design-lead.jpg",
           bio: "Design Systems Architect with 8+ years in enterprise design",
         },
@@ -557,7 +557,7 @@ export const blogApiResponse = {
         author: {
           id: 13,
           name: "A11y Expert",
-          email: "a11y.expert@blogads.com",
+          email: "a11y.expert@readgo.com",
           avatar: "/images/authors/a11y-expert.jpg",
           bio: "Accessibility Specialist and Inclusive Design Advocate",
         },
@@ -592,7 +592,7 @@ export const blogApiResponse = {
         author: {
           id: 14,
           name: "Motion Designer",
-          email: "motion.designer@blogads.com",
+          email: "motion.designer@readgo.com",
           avatar: "/images/authors/motion-designer.jpg",
           bio: "Motion Designer specializing in web animations and micro-interactions",
         },
@@ -627,7 +627,7 @@ export const blogApiResponse = {
         author: {
           id: 15,
           name: "Color Expert",
-          email: "color.expert@blogads.com",
+          email: "color.expert@readgo.com",
           avatar: "/images/authors/color-expert.jpg",
           bio: "Color Theory Specialist and Digital Design Consultant",
         },
@@ -664,7 +664,7 @@ export const blogApiResponse = {
         author: {
           id: 16,
           name: "Business Strategist",
-          email: "business.strategist@blogads.com",
+          email: "business.strategist@readgo.com",
           avatar: "/images/authors/business-strategist.jpg",
           bio: "Digital Transformation Consultant with 15+ years experience",
         },
@@ -743,7 +743,7 @@ export const blogApiResponse = {
         author: {
           id: 21,
           name: "Sarah Wilson",
-          email: "sarah.wilson@blogads.com",
+          email: "sarah.wilson@readgo.com",
           avatar: "/images/authors/sarah-wilson.jpg",
           bio: "Digital Marketing Expert and Strategy Consultant",
         },
@@ -824,7 +824,7 @@ export const blogApiResponse = {
         author: {
           id: 26,
           name: "Emily Davis",
-          email: "emily.davis@blogads.com",
+          email: "emily.davis@readgo.com",
           avatar: "/images/authors/emily-davis.jpg",
           bio: "Wellness Coach specializing in tech industry professionals",
         },

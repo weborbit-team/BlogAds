@@ -16,6 +16,7 @@ import {
   YouTube,
   Email,
 } from "@mui/icons-material";
+import Logo from "./Logo";
 
 export default function Footer() {
   return (
@@ -36,12 +37,9 @@ export default function Footer() {
           sx={{ textAlign: { xs: "center", md: "left" } }}
         >
           <Grid size={{ xs: 12, md: 4 }}>
-            <Typography
-              variant="h5"
-              sx={{ fontWeight: 700, mb: 2, color: "#8b5fbf" }}
-            >
-              BlogAds
-            </Typography>
+            <Box sx={{ mb: 2, display: 'flex', justifyContent: { xs: 'center', md: 'flex-start' } }}>
+              <Logo width={120} height={40} />
+            </Box>
             <Typography
               variant="body2"
               sx={{ mb: 3, color: "#b0b0b0", lineHeight: 1.6 }}
@@ -77,7 +75,7 @@ export default function Footer() {
               sx={{ display: "flex", alignItems: "center", color: "#b0b0b0" }}
             >
               <Email sx={{ mr: 1.5, fontSize: 18 }} />
-              <Typography variant="body2">contact@blogads.com</Typography>
+              <Typography variant="body2">contact@readgo.com</Typography>
             </Box>
           </Grid>
 
@@ -193,7 +191,7 @@ export default function Footer() {
           }}
         >
           <Typography variant="body2" sx={{ color: "#b0b0b0" }}>
-            © {new Date().getFullYear()} BlogAds. Sharing knowledge, inspiring
+            © {new Date().getFullYear()} ReadGo. Sharing knowledge, inspiring
             minds.
           </Typography>
           <Box sx={{ display: "flex", gap: 3 }}>

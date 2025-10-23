@@ -23,7 +23,7 @@ export const fiveGConnectivityBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567808",
     name: "Network Pro",
-    email: "network.pro@blogads.com",
+    email: "network.pro@readgo.com",
     avatar: "/images/authors/network-pro.jpg",
     bio: "Telecommunications Engineer and 5G Technology Expert",
   },

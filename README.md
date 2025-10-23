@@ -1,6 +1,6 @@
-# NextMUI - Next.js + Material-UI Showcase
+# ReadGo - Modern Blog Platform
 
-A modern, full-featured web application showcasing the powerful combination of Next.js and Material-UI (MUI). This project demonstrates best practices for building scalable React applications with a comprehensive component library, dark theme, and responsive design.
+A modern, full-featured blog platform built with Next.js and Material-UI (MUI). ReadGo provides an engaging reading experience with responsive design, dark theme, and modern React patterns for content discovery and consumption.
 
 ## 🚀 Features
 
@@ -18,7 +18,7 @@ A modern, full-featured web application showcasing the powerful combination of N
 ## 📁 Project Structure
 
 ```
-nextmui/
+readgo/
 ├── app/                          # Next.js App Router
 │   ├── info/                     # Info page route
 │   │   └── page.js              # Technology stack information
@@ -132,7 +132,7 @@ The application demonstrates a comprehensive set of MUI components:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd nextmui
+   cd readgo
    ```
 
 2. **Install dependencies**
@@ -225,7 +225,8 @@ PostCSS configuration with Tailwind CSS plugin.
 
 ## 🌐 Pages & Routes
 
-- **`/`** - Home page with comprehensive MUI component showcase
+- **`/`** - Home page with comprehensive blog platform showcase
+- **`/blogs`** - Blog listing and individual blog posts
 - **`/info`** - Technology stack information and benefits
 
 ## 🎨 Theme Customization
@@ -293,4 +294,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-**Built with ❤️ using Next.js and Material-UI**
+**Built with ❤️ using Next.js and Material-UI for ReadGo**

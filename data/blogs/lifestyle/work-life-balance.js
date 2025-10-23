@@ -27,7 +27,7 @@ export const workLifeBalanceBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56781a",
     name: "Emily Davis",
-    email: "emily.davis@blogads.com",
+    email: "emily.davis@readgo.com",
     avatar: "/images/authors/emily-davis.jpg",
     bio: "Wellness Coach specializing in tech industry professionals",
   },

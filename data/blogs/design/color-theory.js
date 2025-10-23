@@ -30,7 +30,7 @@ export const colorTheoryBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780f",
     name: "Color Expert",
-    email: "color.expert@blogads.com",
+    email: "color.expert@readgo.com",
     avatar: "/images/authors/color-expert.jpg",
     bio: "Color Theory Specialist and Digital Design Consultant",
   },

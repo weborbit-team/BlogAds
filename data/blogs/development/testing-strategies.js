@@ -29,7 +29,7 @@ export const testingStrategiesBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780c",
     name: "Test Guru",
-    email: "test.guru@blogads.com",
+    email: "test.guru@readgo.com",
     avatar: "/images/authors/test-guru.jpg",
     bio: "Quality Assurance Expert and Testing Strategy Consultant",
   },

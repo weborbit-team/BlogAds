@@ -1,12 +1,10 @@
 export default function manifest() {
   return {
-    name:
-      process.env.NEXT_PUBLIC_SITE_NAME ||
-      "NextMUI - Next.js + Material-UI Showcase",
-    short_name: "NextMUI",
+    name: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
+    short_name: "ReadGo",
     description:
       process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-      "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
+      "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
     start_url: "/",
     display: "standalone",
     background_color: "#0a0a0a",
@@ -16,6 +14,17 @@ export default function manifest() {
         src: "/favicon.ico",
         sizes: "any",
         type: "image/x-icon",
+      },
+      {
+        src: "/favicon.svg",
+        sizes: "any",
+        type: "image/svg+xml",
+      },
+      {
+        src: "/readgo-logo.svg",
+        sizes: "120x40",
+        type: "image/svg+xml",
+        purpose: "any",
       },
     ],
   };

@@ -160,7 +160,7 @@ export const cloudComputingBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567800",
     name: "David Brown",
-    email: "david.brown@blogads.com",
+    email: "david.brown@readgo.com",
     avatar: "/images/authors/david-brown.jpg",
     bio: "Cloud Architecture Expert with 10+ years experience",
   },

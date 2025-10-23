@@ -26,7 +26,7 @@ export const digitalTransformationBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567810",
     name: "Business Strategist",
-    email: "business.strategist@blogads.com",
+    email: "business.strategist@readgo.com",
     avatar: "/images/authors/business-strategist.jpg",
     bio: "Digital Transformation Consultant with 15+ years experience",
   },

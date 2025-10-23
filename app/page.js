@@ -11,39 +11,36 @@ import {
 } from "../components";
 
 export const metadata = {
-  title:
-    process.env.NEXT_PUBLIC_SITE_NAME ||
-    "NextMUI - Next.js + Material-UI Showcase",
+  title: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
+    "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
   keywords:
     process.env.NEXT_PUBLIC_KEYWORDS ||
-    "Next.js,Material-UI,React,TypeScript,Dark Theme,Responsive Design,Web Development",
+    "Blog,Reading,Stories,Articles,Content,Writers,Publishing,Modern Blog Platform",
   openGraph: {
-    title:
-      process.env.NEXT_PUBLIC_SITE_NAME ||
-      "NextMUI - Next.js + Material-UI Showcase",
+    title: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
     description:
       process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-      "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
-    url:
-      process.env.NEXT_PUBLIC_SITE_URL || "https://nextmui-showcase.vercel.app",
+      "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://read-go.vercel.app",
     type: "website",
   },
 };
 
 export default function Home() {
   return (
-    <Box sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto" }}>
+    <>
       <HeroSection />
-      <FeaturedPosts />
-      <CategoriesSection />
-      <TrendingSection />
-      <AboutSection />
-      <TestimonialsSection />
-      <RecentPosts />
-      <StatsSection />
-    </Box>
+      <Box sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto" }}>
+        <FeaturedPosts />
+        <CategoriesSection />
+        <TrendingSection />
+        <AboutSection />
+        <TestimonialsSection />
+        <RecentPosts />
+        <StatsSection />
+      </Box>
+    </>
   );
 }

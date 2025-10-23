@@ -26,7 +26,7 @@ export const cybersecurityRemoteBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567809",
     name: "SecureMax",
-    email: "secure.max@blogads.com",
+    email: "secure.max@readgo.com",
     avatar: "/images/authors/secure-max.jpg",
     bio: "Cybersecurity Consultant specializing in remote work security",
   },

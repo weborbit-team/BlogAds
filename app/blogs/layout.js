@@ -1,15 +1,15 @@
 export const metadata = {
   title: {
-    template: "%s | NextMUI Blog",
-    default: "Blog Categories | NextMUI - Next.js + Material-UI Showcase",
+    template: "%s | ReadGo Blog",
+    default: "Blog Categories | ReadGo - Modern Blog Platform",
   },
   description:
     "Explore our comprehensive blog covering Technology, Development, Design, Business, Marketing, and Lifestyle topics. Stay updated with the latest insights and trends.",
   keywords:
     "blog, technology, development, design, business, marketing, lifestyle, Next.js, Material-UI, React, tutorials, guides",
-  authors: [{ name: process.env.NEXT_PUBLIC_AUTHOR || "NextMUI Team" }],
-  creator: process.env.NEXT_PUBLIC_AUTHOR || "NextMUI Team",
-  publisher: process.env.NEXT_PUBLIC_SITE_NAME || "NextMUI",
+  authors: [{ name: process.env.NEXT_PUBLIC_AUTHOR || "ReadGo Team" }],
+  creator: process.env.NEXT_PUBLIC_AUTHOR || "ReadGo Team",
+  publisher: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo",
   robots: {
     index: true,
     follow: true,
@@ -22,20 +22,20 @@ export const metadata = {
     },
   },
   openGraph: {
-    title: "Blog Categories | NextMUI - Next.js + Material-UI Showcase",
+    title: "Blog Categories | ReadGo - Modern Blog Platform",
     description:
       "Explore our comprehensive blog covering Technology, Development, Design, Business, Marketing, and Lifestyle topics.",
     url: `${process.env.NEXT_PUBLIC_SITE_URL}/blogs`,
-    siteName: process.env.NEXT_PUBLIC_SITE_NAME || "NextMUI",
+    siteName: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Blog Categories | NextMUI",
+    title: "Blog Categories | ReadGo",
     description:
       "Explore our comprehensive blog covering Technology, Development, Design, Business, Marketing, and Lifestyle topics.",
-    creator: "@nextmui",
+    creator: "@readgo",
   },
   alternates: {
     canonical: `${process.env.NEXT_PUBLIC_SITE_URL}/blogs`,

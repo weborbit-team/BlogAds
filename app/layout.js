@@ -13,46 +13,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title:
-    process.env.NEXT_PUBLIC_SITE_NAME ||
-    "NextMUI - Next.js + Material-UI Showcase",
+  title: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
   description:
     process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-    "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
+    "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
   keywords:
     process.env.NEXT_PUBLIC_KEYWORDS ||
-    "Next.js,Material-UI,React,TypeScript,Dark Theme,Responsive Design,Web Development",
-  authors: [{ name: process.env.NEXT_PUBLIC_AUTHOR || "NextMUI Team" }],
-  creator: process.env.NEXT_PUBLIC_AUTHOR || "NextMUI Team",
-  publisher: process.env.NEXT_PUBLIC_AUTHOR || "NextMUI Team",
+    "Blog,Reading,Stories,Articles,Content,Writers,Publishing,Modern Blog Platform",
+  authors: [{ name: process.env.NEXT_PUBLIC_AUTHOR || "ReadGo Team" }],
+  creator: process.env.NEXT_PUBLIC_AUTHOR || "ReadGo Team",
+  publisher: process.env.NEXT_PUBLIC_AUTHOR || "ReadGo Team",
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://nextmui-showcase.vercel.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://read-go.vercel.app"
   ),
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title:
-      process.env.NEXT_PUBLIC_SITE_NAME ||
-      "NextMUI - Next.js + Material-UI Showcase",
+    title: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
     description:
       process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-      "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
-    url:
-      process.env.NEXT_PUBLIC_SITE_URL || "https://nextmui-showcase.vercel.app",
-    siteName: process.env.NEXT_PUBLIC_SITE_NAME || "NextMUI",
+      "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
+    url: process.env.NEXT_PUBLIC_SITE_URL || "https://read-go.vercel.app",
+    siteName: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title:
-      process.env.NEXT_PUBLIC_SITE_NAME ||
-      "NextMUI - Next.js + Material-UI Showcase",
+    title: process.env.NEXT_PUBLIC_SITE_NAME || "ReadGo - Modern Blog Platform",
     description:
       process.env.NEXT_PUBLIC_SITE_DESCRIPTION ||
-      "Professional Next.js 15 and Material-UI v7 showcase featuring responsive design, dark theme, and modern React patterns",
-    creator: "@nextmui",
+      "Discover captivating stories, cutting-edge insights, and inspiring content from passionate writers worldwide",
+    creator: "@readgo",
   },
   robots: {
     index: true,

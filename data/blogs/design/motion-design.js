@@ -29,7 +29,7 @@ export const motionDesignBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f56780e",
     name: "Motion Designer",
-    email: "motion.designer@blogads.com",
+    email: "motion.designer@readgo.com",
     avatar: "/images/authors/motion-designer.jpg",
     bio: "Motion Designer specializing in web animations and micro-interactions",
   },

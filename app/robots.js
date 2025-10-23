@@ -1,6 +1,6 @@
 export default function robots() {
   const baseUrl =
-    process.env.NEXT_PUBLIC_SITE_URL || "https://nextmui-showcase.vercel.app";
+    process.env.NEXT_PUBLIC_SITE_URL || "https://read-go.vercel.app";
 
   return {
     rules: {

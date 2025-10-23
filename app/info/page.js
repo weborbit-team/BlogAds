@@ -74,7 +74,7 @@ export default function AboutPage() {
           gutterBottom
           sx={{ fontWeight: 800, mb: 2 }}
         >
-          About BlogAds
+          About ReadGo
         </Typography>
         <Typography
           variant="h5"
@@ -145,8 +145,8 @@ export default function AboutPage() {
           paragraph
           sx={{ fontSize: "1.1rem", lineHeight: 1.7 }}
         >
-          BlogAds transforms how people consume content online. We curate
-          premium blogs that educate and inspire while channeling every reader
+          ReadGo transforms how people consume content online. We curate premium
+          blogs that educate and inspire while channeling every reader
           interaction into meaningful social causes. Your privacy remains
           completely protected—no tracking, no data collection, just pure,
           impactful content.
@@ -254,7 +254,7 @@ export default function AboutPage() {
             color="text.secondary"
             sx={{ maxWidth: 600, mx: "auto" }}
           >
-            These terms govern your use of BlogAds. By accessing our platform,
+            These terms govern your use of ReadGo. By accessing our platform,
             you agree to comply with these conditions.
           </Typography>
         </Box>
@@ -285,12 +285,12 @@ export default function AboutPage() {
                 {
                   title: "Content Policy & Family Safety",
                   content:
-                    "BlogAds strictly prohibits pornographic, explicit, or adult content. We are committed to providing clean, educational, and family-friendly content suitable for all ages. All materials undergo content review to ensure appropriateness and educational value.",
+                    "ReadGo strictly prohibits pornographic, explicit, or adult content. We are committed to providing clean, educational, and family-friendly content suitable for all ages. All materials undergo content review to ensure appropriateness and educational value.",
                 },
                 {
                   title: "Acceptance of Terms",
                   content:
-                    "By accessing BlogAds, you agree to these terms. If you disagree with any part, please discontinue use immediately.",
+                    "By accessing ReadGo, you agree to these terms. If you disagree with any part, please discontinue use immediately.",
                 },
                 {
                   title: "User Information Risk",
@@ -305,7 +305,7 @@ export default function AboutPage() {
                 {
                   title: "Intellectual Property",
                   content:
-                    "BlogAds owns all original content, design, and trademarks. Third-party content remains property of respective owners.",
+                    "ReadGo owns all original content, design, and trademarks. Third-party content remains property of respective owners.",
                 },
                 {
                   title: "Privacy & Data Protection",
@@ -335,7 +335,7 @@ export default function AboutPage() {
                 {
                   title: "Limitation of Liability",
                   content:
-                    "BlogAds is not liable for any direct, indirect, or consequential damages arising from platform use or content reliance.",
+                    "ReadGo is not liable for any direct, indirect, or consequential damages arising from platform use or content reliance.",
                 },
                 {
                   title: "Modifications & Contact",
@@ -381,7 +381,7 @@ export default function AboutPage() {
               color="text.secondary"
               sx={{ fontWeight: 500 }}
             >
-              By continuing to use BlogAds, you acknowledge that you have read,
+              By continuing to use ReadGo, you acknowledge that you have read,
               understood, and agree to be bound by these terms.
             </Typography>
           </Box>

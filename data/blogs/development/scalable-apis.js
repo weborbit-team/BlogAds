@@ -26,7 +26,7 @@ export const scalableApisBlog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567804",
     name: "Mike Johnson",
-    email: "mike.johnson@blogads.com",
+    email: "mike.johnson@readgo.com",
     avatar: "/images/authors/mike-johnson.jpg",
     bio: "Senior Backend Engineer with expertise in distributed systems",
   },

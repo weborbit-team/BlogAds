@@ -29,7 +29,7 @@ export const react19Blog = {
   author: {
     id: "675e4a2b8f1c2d3e4f567804",
     name: "John Doe",
-    email: "john.doe@blogads.com",
+    email: "john.doe@readgo.com",
     avatar: "/images/authors/john-doe.jpg",
     bio: "Senior Frontend Developer and React Expert",
   },
