@@ -8,6 +8,11 @@ import {
   TestimonialsSection,
   RecentPosts,
   StatsSection,
+  SocialBar,
+  Advertisement,
+  BannerAdvertisement,
+  NativeBannerAd,
+  PopunderAd,
 } from "../components";
 
 export const metadata = {
@@ -31,11 +36,22 @@ export const metadata = {
 export default function Home() {
   return (
     <>
+      <SocialBar />
+      <PopunderAd />
       <HeroSection />
       <Box sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto" }}>
         <FeaturedPosts />
+        <Box sx={{ my: 4 }}>
+          <BannerAdvertisement />
+        </Box>
         <CategoriesSection />
+        <Box sx={{ my: 4 }}>
+          <Advertisement />
+        </Box>
         <TrendingSection />
+        <Box sx={{ my: 4 }}>
+          <NativeBannerAd />
+        </Box>
         <AboutSection />
         <TestimonialsSection />
         <RecentPosts />

@@ -21,6 +21,14 @@ import {
   VolunteerActivism,
   CheckCircle,
 } from "@mui/icons-material";
+import {
+  SocialBar,
+  Advertisement,
+  BannerAdvertisement,
+  NativeBannerAd,
+  PopunderAd,
+  SmartlinkAdvertisement,
+} from "../../components";
 
 export default function AboutPage() {
   const features = [
@@ -65,7 +73,10 @@ export default function AboutPage() {
   ];
 
   return (
-    <Container maxWidth="lg" sx={{ py: 8 }}>
+    <>
+      <SocialBar />
+      <PopunderAd />
+      <Container maxWidth="lg" sx={{ py: 8 }}>
       {/* Hero Section */}
       <Box textAlign="center" mb={8}>
         <Typography
@@ -122,6 +133,10 @@ export default function AboutPage() {
         ))}
       </Grid>
 
+      <Box sx={{ my: 4 }}>
+        <BannerAdvertisement />
+      </Box>
+
       {/* Mission Statement */}
       <Paper
         sx={{
@@ -152,6 +167,10 @@ export default function AboutPage() {
           impactful content.
         </Typography>
       </Paper>
+
+      <Box sx={{ my: 4 }}>
+        <Advertisement />
+      </Box>
 
       {/* Social Impact */}
       <Box mb={8}>
@@ -189,6 +208,10 @@ export default function AboutPage() {
             </Grid>
           ))}
         </Grid>
+      </Box>
+
+      <Box sx={{ my: 4 }}>
+        <NativeBannerAd />
       </Box>
 
       {/* Privacy & Quality */}
@@ -242,6 +265,10 @@ export default function AboutPage() {
           </Paper>
         </Grid>
       </Grid>
+
+      <Box sx={{ my: 4 }}>
+        <SmartlinkAdvertisement />
+      </Box>
 
       {/* Terms and Conditions */}
       <Box mt={8}>
@@ -410,6 +437,7 @@ export default function AboutPage() {
           Read quality content. Support social causes. Protect your privacy.
         </Typography>
       </Box>
-    </Container>
+      </Container>
+    </>
   );
 }

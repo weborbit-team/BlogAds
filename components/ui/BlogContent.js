@@ -1,7 +1,5 @@
 import { Box, styled } from "@mui/material";
-import BannerAdvertisement from "../BannerAdvertisement";
-import SmartlinkAdvertisement from "../SmartlinkAdvertisement";
-import NativeBannerAd from "../NativeBannerAd";
+import { SmartlinkAdvertisement, SocialBar } from "../index";
 
 const StyledBlogContent = styled(Box)(({ theme }) => ({
   fontFamily: '"Inter", "Segoe UI", "Roboto", sans-serif',
@@ -47,16 +45,8 @@ const StyledBlogContent = styled(Box)(({ theme }) => ({
 
   // Table of Contents
   "& .table-of-contents": {
-    backgroundColor:
-      theme.palette.mode === "dark"
-        ? "rgba(255, 255, 255, 0.02)"
-        : "rgba(0, 0, 0, 0.02)",
-    border: `1px solid ${theme.palette.divider}`,
-    padding: theme.spacing(3),
     borderRadius: theme.spacing(2),
     margin: theme.spacing(4, 0),
-    backdropFilter: "blur(10px)",
-
     "& h2": {
       fontSize: "1.125rem",
       fontWeight: 700,
@@ -374,6 +364,7 @@ export default function BlogContent({ content, ...props }) {
 
   return (
     <Box>
+      <SocialBar />
       {sections.map((section, index) => (
         <Box key={index}>
           <StyledBlogContent
@@ -391,11 +382,10 @@ export default function BlogContent({ content, ...props }) {
             {...props}
           />
 
-          {/* Insert ads after every section (except first and last) */}
-          {index > 0 && index < sections.length - 1 && (
+          {/* Insert SmartlinkAdvertisement after every 2 sections */}
+          {index > 0 && index % 2 === 0 && (
             <Box sx={{ my: 4 }}>
-              <BannerAdvertisement />
-              <NativeBannerAd />
+              <SmartlinkAdvertisement />
             </Box>
           )}
         </Box>

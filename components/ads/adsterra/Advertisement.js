@@ -51,7 +51,7 @@ const Advertisement = () => {
         flexDirection: 'column',
         alignItems: 'center',
         gap: 2,
-        py: 3,
+        py: 1,
         px: 2
       }}
     >
