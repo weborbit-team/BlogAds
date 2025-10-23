@@ -1,5 +1,5 @@
 import { Box, styled } from "@mui/material";
-import { SmartlinkAdvertisement, SocialBar } from "../index";
+import { SmartLinkAds, SocialBar } from "../index";
 
 const StyledBlogContent = styled(Box)(({ theme }) => ({
   fontFamily: '"Inter", "Segoe UI", "Roboto", sans-serif',
@@ -382,10 +382,10 @@ export default function BlogContent({ content, ...props }) {
             {...props}
           />
 
-          {/* Insert SmartlinkAdvertisement after every 2 sections */}
+          {/* Insert SmartLinkAds after every 2 sections */}
           {index > 0 && index % 2 === 0 && (
             <Box sx={{ my: 4 }}>
-              <SmartlinkAdvertisement />
+              <SmartLinkAds />
             </Box>
           )}
         </Box>

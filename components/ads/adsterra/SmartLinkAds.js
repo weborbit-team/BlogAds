@@ -2,7 +2,7 @@
 
 import { Box, Button } from '@mui/material';
 
-const SmartlinkAdvertisement = () => {
+const SmartLinkAds = () => {
   return (
     <Box
       component="aside"
@@ -36,4 +36,4 @@ const SmartlinkAdvertisement = () => {
   );
 };
 
-export default SmartlinkAdvertisement;
+export default SmartLinkAds;

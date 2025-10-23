@@ -23,11 +23,11 @@ import {
 } from "@mui/icons-material";
 import {
   SocialBar,
-  Advertisement,
-  BannerAdvertisement,
+  Ads,
+  Banner728Ads90,
   NativeBannerAd,
   PopunderAd,
-  SmartlinkAdvertisement,
+  SmartLinkAds,
 } from "../../components";
 
 export default function AboutPage() {
@@ -134,7 +134,7 @@ export default function AboutPage() {
       </Grid>
 
       <Box sx={{ my: 4 }}>
-        <BannerAdvertisement />
+        <Banner728Ads90 />
       </Box>
 
       {/* Mission Statement */}
@@ -169,7 +169,7 @@ export default function AboutPage() {
       </Paper>
 
       <Box sx={{ my: 4 }}>
-        <Advertisement />
+        <Ads />
       </Box>
 
       {/* Social Impact */}
@@ -267,7 +267,7 @@ export default function AboutPage() {
       </Grid>
 
       <Box sx={{ my: 4 }}>
-        <SmartlinkAdvertisement />
+        <SmartLinkAds />
       </Box>
 
       {/* Terms and Conditions */}

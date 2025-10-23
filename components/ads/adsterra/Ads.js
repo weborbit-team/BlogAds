@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { Box, Button, Stack } from '@mui/material';
 
-const Advertisement = () => {
+const Ads = () => {
   const adRef = useRef(null);
   const scriptInjected = useRef(false);
 
@@ -96,4 +96,4 @@ const Advertisement = () => {
   );
 };
 
-export default Advertisement;
+export default Ads;

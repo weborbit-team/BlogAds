@@ -23,8 +23,8 @@ import CountdownOverlay, {
 import { redirectToRandomBlog } from "../../../utils/blogRedirect";
 import UserForm from "../../../components/ui/UserForm";
 import {
-  BannerAdvertisement,
-  SmartlinkAdvertisement,
+  Banner728Ads90,
+  SmartLinkAds,
   NativeBannerAd,
   PopunderAd,
 } from "../../../components";
@@ -235,7 +235,7 @@ export default function BlogDetailPage() {
       </Box>
 
       {/* Top Ads */}
-      <BannerAdvertisement />
+      <Banner728Ads90 />
 
       {showCountdown && (
         <CountdownOverlay onComplete={handleCountdownComplete} />

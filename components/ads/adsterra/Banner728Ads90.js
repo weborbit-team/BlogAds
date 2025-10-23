@@ -3,7 +3,7 @@
 import { useEffect, useRef } from 'react';
 import { Box } from '@mui/material';
 
-const BannerAdvertisement = () => {
+const Banner728Ads90 = () => {
   const adRef = useRef(null);
 
   useEffect(() => {
@@ -62,4 +62,4 @@ const BannerAdvertisement = () => {
   );
 };
 
-export default BannerAdvertisement;
+export default Banner728Ads90;

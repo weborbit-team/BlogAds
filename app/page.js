@@ -9,8 +9,8 @@ import {
   RecentPosts,
   StatsSection,
   SocialBar,
-  Advertisement,
-  BannerAdvertisement,
+  Ads,
+  Banner728Ads90,
   NativeBannerAd,
   PopunderAd,
 } from "../components";
@@ -42,11 +42,11 @@ export default function Home() {
       <Box sx={{ mt: 4, mb: 4, maxWidth: "1200px", mx: "auto" }}>
         <FeaturedPosts />
         <Box sx={{ my: 4 }}>
-          <BannerAdvertisement />
+          <Banner728Ads90 />
         </Box>
         <CategoriesSection />
         <Box sx={{ my: 4 }}>
-          <Advertisement />
+          <Ads />
         </Box>
         <TrendingSection />
         <Box sx={{ my: 4 }}>
